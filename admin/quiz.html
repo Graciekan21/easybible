@@ -120,38 +120,45 @@
       <h1>My First Bootstrap Page</h1>
       <p>Resize this responsive page to see the effect!</p>
     </div>
-
+    <!--Columns-->
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h3>Who was Jesus earthly father?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit...
-          </p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
-          </p>
-        </div>
-        <div class="col-6">
-          <h3>Who was Jesus' mother?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit
-            amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit...
-          </p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
-          </p>
+      <div class="row" id="q1">
+        <div class="row">1. Who did God tell to build an ark?</div>
+        <div class="row">
+          <div class="row">
+            <div class="col d-flex justify-content-start">
+              <input type="radio" name="qn1" value="A" />John
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-start">
+              <input type="radio" name="qn1" value="B" />Noah
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-start">
+              <input type="radio" name="qn1" value="C" />Samuel
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-start">
+              <input type="radio" name="qn1" value="D" />Elijah
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      //document.write("This writes inside the page");
+      //alert("first web page");
+      //console.log("this logs in inspect");
+      //var q1 = document.getElementById("q1");// for getting elements by ID
+      var q1_answers;
+      q1_answers = document.getElementsByName("qn1");
+      for (let i = 0; i < q1_answers.length; i++) {
+        [k=v,k=]
+        console.log(q1_answers[i].value);
+      }
+    </script>
   </body>
 </html>
