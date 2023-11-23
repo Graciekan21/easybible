@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EasyBible</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link href="style.css" rel="stylesheet" />
+    <title>EasyBible</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&display=swap");
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark text-success navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="#">EasyBible</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
+          data-bs-target="#navmenu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a
+                class="nav-link btn btn-primary btn-outline-success"
+                href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="admin/quiz.html">Quiz</a>
+              <a
+                class="nav-link btn btn-primary btn-outline-success"
+                href="admin/quiz.html"
+                >Quiz</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="modal"
-                  data-bs-target="#myModal"
-                >
-                  Login
-                </button>
+              <a
+                class="nav-link btn btn-primary btn-outline-success"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+                href="#"
+              >
+                Login
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container mt-3">
-      <h3>Large Modal Example</h3>
-      <p>Click on the button to open the modal.</p>
+    <div
+      class="container-fluid p-5 p-sm-0 pt-sm-5 bg-info-subtle text-dark text-center"
+    >
+      <h1>LOVE THE WORD OF <span class="text-warning">GOD</span></h1>
+      <p>Find a word that can help you in your daily Life.</p>
+      <div class="container">
+        <img class="img-fluid w-50px" src="images/bible.jpg" alt="" />
+      </div>
     </div>
 
     <!-- The Modal -->
@@ -116,38 +131,131 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>My First Bootstrap Page</h1>
-      <p>Resize this responsive page to see the effect!</p>
-    </div>
-
     <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <div class="row text-center g-4">
+        <div class="col-sm-3 p-5">
+          <img
+            class="img-fluid w-50"
+            src="images/pexels-nacho-juárez-1028930.jpg"
+          />
+          <h3 class="card-title sm-3">Life</h3>
+          <p class="card-text">
+            Romans 12:19 (ESV) Beloved, never avenge yourselves, but leave it to
+            the wrath of God, for it is written, “Vengeance is mine, I will
+            repay, says the Lord.”
+          </p>
           <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
+            Romans 12:20 (ESV) To the contrary, “if your enemy is hungry, feed
+            him; if he is thirsty, give him something to drink; for by so doing
+            you will heap burning coals on his head.”
+          </p>
+          <p>
+            <a herf="" class="btn-dark">Read More</a>
           </p>
         </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
+
+        <div class="col-sm-3">
+          <img
+            class="img-fluid w-50"
+            src="images/pexels-tammy-mosley-3780689.jpg"
+          />
+          <h3 class="card-title sm-3">Relationships</h3>
+          <p class="card-text">
+            Philippians 2:4 (ESV) Let each of you look not only to his own
+            interests, but also to the interests of others.
           </p>
+          <p>
+            Ecclesiastes 4:9 (ESV) Two are better than one, because they have a
+            good reward for their toil.
+          </p>
+          <p>
+            Ecclesiastes 4:10 (ESV) For if they fall, one will lift up his
+            fellow. But woe to him who is alone when he falls and has not
+            another to lift him up!
+          </p>
+          <a herf="" class="btn-dark">Read More</a>
         </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris...
+        <div class="col-sm-3">
+          <img
+            class="img-fluid w-50"
+            src="images/pexels-adera-abdoulaye-dolo-15538227.jpg"
+          />
+          <h3 class="card-title sm-3">Children</h3>
+          <p class="card-text">
+            Psalm 127:3 (ESV) Behold, children are a heritage from the Lord ,
+            the fruit of the womb a reward.
           </p>
+          <p>
+            Ephesians 6:4 (ESV) Fathers, do not provoke your children to anger,
+            but bring them up in the discipline and instruction of the Lord.
+          </p>
+          <p>
+            Matthew 19:14 (ESV) but Jesus said, “Let the little children come to
+            me and do not hinder them, for to such belongs the kingdom of
+            heaven.”
+          </p>
+          <a herf="" class="btn-dark">Read More</a>
+        </div>
+        <div class="col-sm-3">
+          <img
+            class="img-fluid w-50"
+            src="images/pexels-cottonbro-studio-3943745.jpg"
+          />
+          <h3 class="card-title sm-3">Finances</h3>
+          <p class="card-text">
+            Hebrews 13:5 (ESV) Keep your life free from love of money, and be
+            content with what you have, for he has said, “I will never leave you
+            nor forsake you.”
+          </p>
+          <p>
+            Matthew 25:29 (ESV) For to everyone who has will more be given, and
+            he will have an abundance. But from the one who has not, even what
+            he has will be taken away.
+          </p>
+          <a herf="" class="btn-dark">Read More</a>
         </div>
       </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgba(4, 6, 19, 0.87)">
+      <footer
+        class="row d-flex justify-content-around row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-white">© 2023</p>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-white">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-white">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="admin/quiz.html" class="nav-link p-0 text-body-white"
+                >Quiz</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-white">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-white">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
