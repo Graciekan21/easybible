@@ -1,0 +1,33 @@
+/* Google fonts import */
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    min-width: 992;
+    max-width: 1140px;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.container-fluid image {
+    width: 50px;
+}
+
+.image-fluid::before {
+    display: block;
+    content: '';
+}
+
+.image-fluid {
+    object-fit: scale-down;
+    width: 100%;
+    height: 200px;
+}
