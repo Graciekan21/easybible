@@ -1,264 +1,562 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!--meta engines-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
-    <title>EasyBible</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&display=swap");
-    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+    <script type="text/javascript" src="assets/script/app.js"></script>
+    <!--Title-->
+    <title>EasyBible</title>
+</head>
 
-  <body>
-    <nav
-      class="navbar navbar-expand-sm bg-dark text-success navbar-dark py-3 fixed-top"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">EasyBible</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-primary btn-outline-success"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-primary btn-outline-success"
-                href="admin/quiz.html"
-                >Quiz</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-primary btn-outline-success"
-                data-bs-toggle="modal"
-                data-bs-target="#myModal"
-                href="#"
-              >
-                Login
-              </a>
-            </li>
-          </ul>
+<body>
+    
+    <div class="container-fluid p-2 bg-primary text-white text-center" style="position:sticky;top:0px;">
+        <h1>Have fun and test your <span class="text-warning">Bible Knowledge</span>!</h1>
+        <p>Take quiz</p>
+        <div class="d-flex flex-row justify-content-between">
+            <p>Points:<span id="points">0</span></p>
+            <p class="btn btn-danger btn-outline-light" onclick="window.open('index.html','_self');" id="play">Play Again</p>
         </div>
-      </div>
-    </nav>
-    <div
-      class="container-fluid p-5 p-sm-0 pt-sm-5 bg-info-subtle text-dark text-center"
-    >
-      <h1>LOVE THE WORD OF <span class="text-warning">GOD</span>!</h1>
-      <p>Get Through The Day.</p>
-      <div class="container">
-        <img class="img-fluid w-50" src="images/bible.jpg" alt="" />
-      </div>
+    </div>
+    <!--Columns-->
+    <div class="container">
+        <div class="row question" id="q1">
+            <div class="row prompt"><b>1. Who did God tell to build an ark?</b></div>
+            <div class="row answers">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn1" value="A" /> John
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn1" data-correct="true" value="B" /> Noah
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn1" value="C" /> Samuel
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn1" value="D" /> Elijah
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q2">
+            <div class="row prompt"><b>2. How many brothers did Joseph have?</b></div>
+            <div class="row answers">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn2" value="A" /> 2
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn2" value="B" /> 8
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn2" data-correct="true" value="C" /> 11
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn2" value="D" /> 12
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q3">
+            <div class="row  prompt"><b>
+                    3. How many days and nights did it rain when Noah was on the ark?</b>
+            </div>
+            <div class="row answers">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn3" data-correct="true" value="A" /> 40
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn3" value="B" /> 17
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn3" value="C" /> 30
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn3" value="D" /> 3
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q4">
+            <div class="row prompt"><b>
+                    4. What was God's sign to Noah that he would never destroy the earth
+                    again?</b>
+            </div>
+            <div class="row answers">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn4" value="A" /> By stoping the rain.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn4" value="B" /> He sent an angle to
+                        him.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn4" data-correct="true" value="C" /> A
+                        rainbow.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn4" value="D" /> he sent sa bird.
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="row question" id="q5">
+        <div class="row prompt"><b>
+                5. Who was the grandson of Samuel?</b>
+        </div>
+        <div class="row answers">
+            <div class="row">
+                <div class="col d-flex justify-content-start">
+                    <input type="radio" name="qn5" value="A" /> Hanani.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-start">
+                    <input type="radio" name="qn5" value="B" /> Arron
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-start">
+                    <input type="radio" name="qn5" value="C" /> John
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-start">
+                    <input type="radio" name="qn5" data-correct="true" value="D" /> Heman.
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <div class="row question" id="q6">
+            <div class="row prompt"><b>
+                    6. Through what did God speak to Moses in the desert?</b>
+            </div>
+            <div class="row answers">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn6" value="A" />Through a dream.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn6" value="B" />Through his Arron.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn6" value="C" />He sent his servant to
+                        him.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn6" data-correct="true" value="D" />A
+                        burning bush.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q7">
+            <div class="row"><b>
+                    <b> 7. What did Moses say God commanded the Pharaoh to do? </b>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn7" value="A" />To give his people
+                        homes.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn7" value="B" />Give them food.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn7" value="C" />To lead them.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn7" data-correct="true" value="D" />Let
+                        his people go.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q8">
+            <div class="row"><b>8. How many plagues did God send on Egypt?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn8" value="A" />22
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn8" data-correct="true" value="B" />10
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn8" value="C" />9
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn8" value="D" />4
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row question" id="q9">
+            <div class="row"><b>9. Who was Jesus's human mother?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn9" value="A" />Hannah
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn9" value="B" />Easter
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn9" data-correct="true" value="C" />Mary
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn9" value="D" />Jezebel
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q10">
+            <div class="row">
+                <b>10. Who was Jesus's adoptive father on Earth?</b>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn10" data-correct="true" value="A" />Joseph
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn10" value="B" />Adam
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn10" value="C" />Noah
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn10" value="D" />mose
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row question" id="q11">
+            <div class="row"><b>11. Name the disciple who betrayed Jesus.</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn11" value="A" />Lazarus
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn11" value="B" />Peter
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn11" data-correct="true" value="C" />Judas Iscariot.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn11" value="D" />John
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q12">
+            <div class="row"><b>12. Who was Jesus's birth father?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn12" value="A" />king Herod
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn12" value="B" />God
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn12" value="C" />Abrama
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn12" data-correct="true" value="D" />Joseph
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q13">
+            <div class="row"><b>13. Name Jesus's hometown</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn13" value="A" />Canaan
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn13" data-correct="true" value="B" />Nazareth
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn13" value="C" />Bethany
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn13" value="D" />Galilea
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q14">
+            <div class="row"><b>14. How many books are in the Bible?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn14" value="A" />11 books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn14" value="B" />15 books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn14" data-correct="true" value="C" />66
+                        books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn14" value="D" />77 books.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q15">
+            <div class="row"><b>15. What did Solomon build for the Lord?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn15" value="A" />A house.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn15" value="B" />A palace.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn15" data-correct="true" value="C" />A
+                        temple.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn15" value="D" />A prison
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row question" id="q16">
+            <div class="row"><b>16. How many books in the Old Testament?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn16" data-correct="true" value="A" />39
+                        books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn16" value="B" />29 books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn16" value="C" />40 books.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn16" value="D" />32 books.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q17">
+            <div class="row">
+                <b>17. What is the shortest book in the Bible?</b>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn17" data-correct="true" value="A" />3
+                        John
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn17" value="B" />Second John
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn17" value="C" />Jude
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn17" value="D" />Philemon
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q18">
+            <div class="row"><b>18. How many lepers did Jesus heal?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn18" data-correct="true" value="A" />10
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn18" value="B" />9
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn18" value="C" />5
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn18" value="D" />8
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q19">
+            <div class="row"><b>19. Which book did David write most of?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn19" value="A" />Numbers.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn19" data-correct="true" value="B" />Psalms
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn19" value="C" />Proverbs.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn19" value="D" />Judges.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row question" id="q20">
+            <div class="row"><b>20. Which book did Jesus directly write?</b></div>
+            <div class="row">
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn20" value="A" />Revelation.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn20" value="B" />Genesis.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn20" value="C" />Deuteronomy.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-start">
+                        <input type="radio" name="qn20" data-correct="true" value="D" />None.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Login</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+</body>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <form action="/action_page.php">
-              <div class="mb-3 mt-3">
-                <label for="email" class="form-label">Email:</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                  name="email"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="pwd" class="form-label">Password:</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="pwd"
-                  placeholder="Enter password"
-                  name="pswd"
-                />
-              </div>
-              <div class="form-check mb-3">
-                <label class="form-check-label">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    name="remember"
-                  />
-                  Remember me
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div class="row text-center g-4">
-        <div class="col-sm-3">
-          <img
-            class="img-fluid image-fluid"
-            src="assets/images/pexels-nacho-juárez-1028930.jpg"
-          />
-          <h3 class="card-title sm-3">Life</h3>
-          <p class="card-text">
-            Romans 12:19 (ESV) Beloved, never avenge yourselves, but leave it to
-            the wrath of God, for it is written, “Vengeance is mine, I will
-            repay, says the Lord.”
-          </p>
-          <p>
-            Romans 12:20 (ESV) To the contrary, “if your enemy is hungry, feed
-            him; if he is thirsty, give him something to drink; for by so doing
-            you will heap burning coals on his head.”
-          </p>
-          <p>
-            <a herf="" class="btn-dark">Read More</a>
-          </p>
-        </div>
-
-        <div class="col-sm-3">
-          <img
-            class="img-fluid image-fluid"
-            src="assets/images/pexels-tammy-mosley-3780689.jpg"
-          />
-          <h3 class="card-title sm-3">Relationships</h3>
-          <p class="card-text">
-            Philippians 2:4 (ESV) Let each of you look not only to his own
-            interests, but also to the interests of others.
-          </p>
-          <p>
-            Ecclesiastes 4:9 (ESV) Two are better than one, because they have a
-            good reward for their toil.
-          </p>
-          <p>
-            Ecclesiastes 4:10 (ESV) For if they fall, one will lift up his
-            fellow. But woe to him who is alone when he falls and has not
-            another to lift him up!
-          </p>
-          <a herf="" class="btn-dark">Read More</a>
-        </div>
-        <div class="col-sm-3">
-          <img
-            class="img-fluid image-fluid"
-            src="assets/images/pexels-adera-abdoulaye-dolo-15538227.jpg"
-          />
-          <h3 class="card-title sm-3">Children</h3>
-          <p class="card-text">
-            Psalm 127:3 (ESV) Behold, children are a heritage from the Lord ,
-            the fruit of the womb a reward.
-          </p>
-          <p>
-            Ephesians 6:4 (ESV) Fathers, do not provoke your children to anger,
-            but bring them up in the discipline and instruction of the Lord.
-          </p>
-          <p>
-            Matthew 19:14 (ESV) but Jesus said, “Let the little children come to
-            me and do not hinder them, for to such belongs the kingdom of
-            heaven.”
-          </p>
-          <a herf="" class="btn-dark">Read More</a>
-        </div>
-        <div class="col-sm-3">
-          <img
-            class="img-fluid image-fluid"
-            src="assets/images/pexels-cottonbro-studio-3943745.jpg"
-          />
-          <h3 class="card-title sm-3">Finances</h3>
-          <p class="card-text">
-            Hebrews 13:5 (ESV) Keep your life free from love of money, and be
-            content with what you have, for he has said, “I will never leave you
-            nor forsake you.”
-          </p>
-          <p>
-            Matthew 25:29 (ESV) For to everyone who has will more be given, and
-            he will have an abundance. But from the one who has not, even what
-            he has will be taken away.
-          </p>
-          <a herf="" class="btn-dark">Read More</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" style="background-color: rgb(1, 1, 1)">
-      <footer
-        class="row d-flex justify-content-around row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
-      >
-        <div class="col mb-3">
-          <a
-            href="/"
-            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
-          >
-            <svg class="bi me-2" width="40" height="32">
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-          <p class="text-body-dark">© 2023</p>
-        </div>
-
-        <div class="col mb-3">
-          <h5></h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-white">Home</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-white">Features</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="admin/quiz.html" class="nav-link p-0 text-body-white"
-                >Quiz</a
-              >
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-white">FAQs</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#" class="nav-link p-0 text-body-white">About</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-  </body>
 </html>
