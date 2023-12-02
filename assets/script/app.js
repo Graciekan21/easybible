@@ -1,4 +1,5 @@
 //got help with Js by Fredrick Sanhewe 
+
 window.onload = function () {
     var correct_marks = 0;
     var total_questions = 0;
@@ -20,14 +21,14 @@ window.onload = function () {
                     if (correct_answer == true) {
                         //execute when true
                         total_attempts++;
-                        console.log("Correct Answer:" + q_answers[x].value);
+                     //mark the correct answer with green
                         q_answers[x].parentNode.style.backgroundColor = "green";
                         if (q_answers[x].checked) {
                             correct_marks++;
                             document.getElementById('points').innerHTML = (correct_marks / 4) + "/" + total_questions;
-                            ("Correct");
+                            //user picked the correct answer
                         } else {
-                            console.log("Wrong");
+                            //Incorrect answer picked
                         }
                     } else {
                         if (q_answers[x].checked) {
@@ -43,9 +44,14 @@ window.onload = function () {
     }
     async function showMarks() {
         //always divide by 4 for every repeated increment
-        if (total_attempts / 4 >= total_questions) {
+        if (total_attempts / 4 >= 1/*total_questions*/) {
             //wait 1 second before popup
-            setTimeout(function () { alert("You got " + (correct_marks / 4) + "/" + total_questions); }, 1000);
+            setTimeout(function () { Swal.fire({
+                title: "Total Marks",
+                text: "You got " + (correct_marks / 4) + "/" + total_questions,
+                icon: "success"
+                });
+                }, 1000);
         }
     }
 };

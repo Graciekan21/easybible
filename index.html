@@ -8,12 +8,17 @@
     <!--Links-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&family=Roboto&display=swap');
     </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
-    <script type="text/javascript" src="assets/script/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     <script type="text/javascript" src="assets/script/app.js"></script>
+     <script type="text/javascript">
+        import Swal from 'sweetalert2'
+        const Swal = require('sweetalert2');
+    </script>
     <!--Title-->
     <title>EasyBible</title>
 </head>
@@ -32,7 +37,7 @@
     <div class="container">
         <div class="row question" id="q1">
             <div class="row prompt"><b>1. Who did God tell to build an ark?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn1" value="A" /> John.
@@ -57,7 +62,7 @@
         </div>
         <div class="row question" id="q2">
             <div class="row prompt"><b>2. How many brothers did Joseph have?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn2" value="A" /> 2.
@@ -84,7 +89,7 @@
             <div class="row  prompt"><b>
                     3. How many days and nights did it rain when Noah was on the ark?</b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn3" data-correct="true" value="A" /> 40.
@@ -112,7 +117,7 @@
                     4. What was God's sign to Noah that he would never destroy the earth
                     again?</b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn4" value="A" /> By stoping the rain.
@@ -136,12 +141,14 @@
                     </div>
                 </div>
             </div>
+No results found for 'consol'
+
         </div>
     <div class="row question" id="q5">
         <div class="row prompt"><b>
                 5. Who was the grandson of Samuel?</b>
         </div>
-        <div class="row answers">
+        <div class="row answers text-white">
             <div class="row">
                 <div class="col d-flex justify-content-start">
                     <input type="radio" name="qn5" value="A" /> Hanani.
@@ -169,7 +176,7 @@
             <div class="row prompt"><b>
                     6. Through what did God speak to Moses in the desert?</b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn6" value="A" />Through a dream.
@@ -198,7 +205,7 @@
             <div class="row prompt"><b>
                     <b> 7. What did Moses say God commanded the Pharaoh to do? </b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn7" value="A" />To give his people
@@ -225,7 +232,7 @@
         </div>
         <div class="row question" id="q8">
             <div class="row prompt"><b>8. How many plagues did God send on Egypt?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn8" value="A" />22
@@ -251,7 +258,7 @@
 
         <div class="row question" id="q9">
             <div class="row prompt"><b>9. Who was Jesus's human mother?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn9" value="A" />Hannah.
@@ -278,7 +285,7 @@
             <div class="row prompt">
                 <b>10. Who was Jesus's adoptive father on Earth?</b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn10" data-correct="true" value="A" />Joseph.
@@ -304,7 +311,7 @@
 
         <div class="row question" id="q11">
             <div class="row prompt"><b>11. Name the disciple who betrayed Jesus.</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn11" value="A" />Lazarus.
@@ -329,7 +336,7 @@
         </div>
         <div class="row question" id="q12">
             <div class="row prompt"><b>12. Who was Jesus's birth father?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn12" value="A" />king Herod.
@@ -354,7 +361,7 @@
         </div>
         <div class="row question" id="q13">
             <div class="row prompt"><b>13. Name Jesus's hometown</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn13" value="A" />Canaan.
@@ -379,7 +386,7 @@
         </div>
         <div class="row question" id="q14">
             <div class="row prompt"><b>14. How many books are in the Bible?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn14" value="A" />11 books.
@@ -405,7 +412,7 @@
         </div>
         <div class="row question" id="q15">
             <div class="row prompt"><b>15. What did Solomon build for the Lord?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn15" value="A" />A house.
@@ -432,7 +439,7 @@
 
         <div class="row question" id="q16">
             <div class="row prompt"><b>16. How many books in the Old Testament?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn16" data-correct="true" value="A" />39.
@@ -460,7 +467,7 @@
             <div class="row prompt">
                 <b>17. What is the shortest book in the Bible?</b>
             </div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn17" data-correct="true" value="A" />3
@@ -486,7 +493,7 @@
         </div>
         <div class="row question" id="q18">
             <div class="row prompt"><b>18. How many lepers did Jesus heal?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn18" data-correct="true" value="A" />10.
@@ -511,7 +518,7 @@
         </div>
         <div class="row question" id="q19">
             <div class="row prompt"><b>19. Which book did David write most of?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn19" value="A" />Numbers.
@@ -536,7 +543,7 @@
         </div>
         <div class="row question" id="q20">
             <div class="row prompt"><b>20. Which book did Jesus directly write?</b></div>
-            <div class="row answers">
+            <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
                         <input type="radio" name="qn20" value="A" />Revelation.
