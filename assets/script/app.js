@@ -1,4 +1,4 @@
-//got this help by Fredrick Sanhewe
+//got help with Js by Fredrick Sanhewe 
 window.onload = function () {
     var correct_marks = 0;
     var total_questions = 0;
