@@ -25,7 +25,7 @@ window.onload = function () {
                         if (q_answers[x].checked) {
                             correct_marks++;
                             document.getElementById('points').innerHTML = (correct_marks / 4) + "/" + total_questions;
-                            console.log("Correct");
+                            ("Correct");
                         } else {
                             console.log("Wrong");
                         }
