@@ -2,7 +2,7 @@
 
 ![EasyBible quiz shows on a variety of screen sizes](assets/images/favicon/Easy-Bible-Quiz.png)
 
-Visit the deployed site: [The Quiz Arms](https://graciekan21-easybible.github.io/Easybible/)
+Visit the deployed site: [EasyBible quiz](https://graciekan21-easybible.github.io/Easybible/)
 
 Test your bible knowledge!
 
@@ -49,8 +49,6 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
     - [Wireframes](#wireframes)
     - [Features](#features)
       - [The Home Page](#the-home-page)
-      - [The Game Page](#the-game-page)
-      - [The High Scores Page](#the-high-scores-page)
       - [The 404 Error Page](#the-404-error-page)
       - [The 500 Error Page](#the-500-error-page)
       - [Future Implementations](#future-implementations)
@@ -108,8 +106,8 @@ In my css file I have used variables to declare colours because it easy to make 
 - I am using `rgb(109, 125, 134)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
 - I am using `#0f1d8620`,`black`,`rgba(10, 10, 92, 0.425)` for the border and questions display.
 - I am using `rgb(1, 3, 3)` for the answer display.
-- 1 am using `#fcf5f5` for answers when hovered over and for the  `rgba(7, 10, 7, 0.3)` for answer display
-- i am using red when answer is correct and green when answer is wrong.
+- 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
+- i am using `red` when answer is wrong and green when answer is correct.
   ![ Color Scheme](documentation/color-scheme.webp)
 
 ### Typography
@@ -122,71 +120,42 @@ Google Fonts am using to import the fonts for using in the site.
 
 - For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
 
-![Quicksand Font Example](documentation/quicksand.webp)
-
 ### Imagery
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+This web page has a background linear-gradien
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![quiz](documentation/wireframes/wireframe.webp)
+![points button](documentation/wireframes/scoreswireframe.webp)
+![play again button](do/refresh/wireframes)
 
 ### Features
 
-The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
+This webpage is composed of a one page website which is the quiz page, it has points scored button, a pop up when the question are answered to show the scores, a play again button to erase the answers for restart; a 404 error page & a 500 error page.
 
-All Pages on the website are responsive an- have:
+This website is responsive and have:
 
-- A favicon in the browser tab.
+- A favicon in the browser.
 
   ![favicon](documentation/favicon-imag-.webp)
 
-- The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](documentation/the-quiz-arms-bann-r.png)
-
-- Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
-
-![Custom Cursor](documentation/features/custom-cursor.gif)
+- The title of webpage is at the top of every page.
 
 #### The Home Page
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The Easy bible quiz displays the questions on the home page and by using a cursor a user can scroll up and down the home page. The title is also displayed on top of the page and then a containers which the text questions and answers are displayed, including the play again button that when clicked it takes the user back to the home page at any time.
 
-![Home page image](documentation/features/index.png)
+The user can only one attempt to select an answer per question untill done with all the questions displayed.
 
-The howto play button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
+When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![Modal open image](documentation/features/modal.png)
+![pop up button](documentation/features/popup.png)
 
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
-
-#### The Game Page
-
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
-
-![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
-
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question ad the 4 answer choices.
-
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
-
-![Image of quiz area](documentation/features/quiz.png)
-
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
-
-![End of game](documentation/features/end.png)
-
-#### The High Scores Page
-
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
-
-![High Scores Page Image](documentation/features/highscores.png)
+The pop up will appear one second after completing the quiz at the top of the page to show the user marks of what you got out of the number of questions.
 
 #### The 404 Error Page
 
