@@ -59,7 +59,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
-      - [How to Fork](#how-to-fork)
+    
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [Solved Bu gs](#solved-bu-gs)
