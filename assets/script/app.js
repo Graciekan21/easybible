@@ -1,4 +1,4 @@
-//got help with Js by Fredrick Sanhewe 
+//got some help with Js to funtion well by Fredrick Sanhewe 
 
 window.onload = function () {
     var correct_marks = 0;

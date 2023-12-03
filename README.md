@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz shows on a variety of screen sizes](assets/images/favicon/Easy-Bible-Quiz.png)
+![EasyBible quiz shows on a variety of screen sizes](assets/css/style.css/images/favicon/Easy-Bible-Quiz.png)
 
 Visit the deployed site: [EasyBible quiz](https://graciekan21-easybible.github.io/Easybible/)
 
@@ -27,11 +27,10 @@ Online Ministry:
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
-![GitHub last commit]()
-![GitHub contributors]()
-![GitHub language count]()
-![GitHub top language]()
-![W3C Validation]()
+![GitHub last commit](#)
+![GitHub contributors](#)
+![GitHub top language](#)
+![W3C Validation](#)
 
 ## CONTENTS
 
@@ -59,7 +58,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
-    
+      - [How to Fork](#how-to-fork)
       - [How to Clone](#how-to-clone)
   - [Testing](#testing)
     - [Solved Bu gs](#solved-bu-gs)
@@ -116,17 +115,15 @@ Google Fonts am using to import the fonts for using in the site.
 
 - For the Page Title I am using the google font [Roboto]('<https://fonts.googleapis.com/css2?family=Open+Sans:ital>,wght@1,300&family=Oswald:wght@200;300&family=Roboto&display=swap').Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
-![Almendra Font Example](documentation/almendr-.webp)
-
-- For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
-
+![Robert fonts]()
+ For the body of the web-page I have using the google fonts by Robertson 
 ### Imagery
 
 This web page has a background linear-gradien
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+Wi
 
 ![Home Page](documentation/wireframes/homewireframe.webp)
 ![quiz](documentation/wireframes/wireframe.webp)
@@ -208,16 +205,14 @@ HTML, CSS, Javascript
 
 - [Balsamiq](https://balsamiq.com/) - Used to create wire-rames.
 
-- [Git](https://git-scm.com/) - For version c-ntrol.
+- [Github](https://github.com/) - Using Github to store files for the web-site
 
-- [Github](https://github.com/) - To save and store the files for the w-bsite.
+- [Github](https://codeanywhere.com/) - IDE used to create the site.
 
-- [GitPod](https://gitpod.io/) - IDE used to create th- site.
+- [Google Fonts](https://fonts.google.com/) - using Google fonts in the web-site.
 
-- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the w-bsite.
-
-- [jQuery](https://jquery.com/) - A JavaScript l-brary.
-
+- [JavaScript](https://) - A JavaScript l-brary.
+  
 - [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and s-yling.
 
 - [TinyPNG](https://tinypng.com/) To compress-images
@@ -284,8 +279,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 ### Solved Bu gs
 
 |  No |                                                                                                                                                                                                                                                                                                                                                                                                          Bug | How I solved t he isue                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| --: | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   1 |                                                                                                                                                                                                                                                                                  An error was displaying in the console when next was clicked after the first question, stating that results wasn't defined. | Data was defined in the callApi(), so couldn't be accessed as it was in local scope rather than global scope. By defining data globally and then passing the data as a parameter into the getQuestion() in the nextQuestion() sol v ed th is.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+                                                                                                                              An error was displaying in the console when next was clicked after the first question, stating that results wasn't defined. | Data was defined in the callApi(), so couldn't be accessed as it was in local scope rather than global scope. By defining data globally and then passing the data as a parameter into the getQuestion() in the nextQuestion() sol v ed th is.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |   2 |                                                                                                                            The Questions being pulled in from the JSON have HTML entity characters that are not escaped and therefore display incorrectly with symbols in place of the correct characters. ![Characters not escaping correctly in the JSON data](documentation/characters-not-esca ped.webp) | After a lot of research into escaping characters, I came across a post on slack that mentioned using innerHTML rather than innerText. Once I changed the answers to innerHTML the characters are now displaying c o rrect ly.                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |   3 |                                                                                                                                                               I have the local storage set up to save the final score as mostRecentScore. However when completing a game and submitting the team name the score added to the high scores section would be the previous score and not the most rece nt score. | After a lot of research to try and find out why this was happening I went over the code again and decided to see if I changed mostRecentScore in the scoreLog to score it would make a difference. By changing this, I have solved the issue and it now pulls the most recent score a chiev ed.                                                                                                                                                                                                                                                                                                                                                                                            |
 |   4 |                                                                                                                                                                                              Players were able to select an answer which would then display whether correct or incorrect. However they could still click on the answers which meant they could click all the answers to receive th e points. | I researched a way to disable the buttons and initially found that I could use answer1.disabled = true; This worked, however it added quite a bit of code, as I had to add this for each button. Further research led me to find [this article](https://blog.revillweb.com/jquery-disable-button-disabling-and-enabling-buttons-with-jquery-5e3ffe669ece) which showed how to use jQuery and the class on the buttons to enable and disable them all at the same time. This then allows me to enable the buttons when a new question has been populated and once a selection has been made, the answer buttons are disabled until the user clicks next to advance onto the next questi on. |
