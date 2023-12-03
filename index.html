@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!--meta engines-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--Links-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  <head>
+<!--meta engines-->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300&family=Roboto&display=swap');
     </style>
@@ -16,43 +15,44 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
      <script type="text/javascript" src="assets/script/app.js"></script>
    
-    <!--Title-->
+<!--Title-->
     <title>EasyBible</title>
 </head>
 
-<body>
-    
+<body> 
+<!--Heading-->
     <div class="container-fluid p-2 bg-primary text-white text-center" style="position:sticky;top:0px;margin-top:0;">
         <h1>EasyBible <span class="text-warning">quiz</span></h1>
         <p>Test your bible knowledge!</p>
+<!--content-->        
         <div class="d-flex flex-row justify-content-between">
             <p class="text-light" style="font-weight:900;">Points:<span id="points">0</span></p>
             <p class="btn btn-danger btn-outline-light" onclick="window.open('index.html','_self');" id="play">Play Again</p>
         </div>
     </div>
-    <!--Columns-->
+<!--Columns-->
     <div class="container">
         <div class="row question" id="q1">
             <div class="row prompt"><b>1. Who did God tell to build an ark?</b></div>
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn1" value="A" /> John.
+                        <input type="radio" name="qn1" value="A"/> John.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn1" data-correct="true" value="B" /> Noah.
+                        <input type="radio" name="qn1" data-correct="true" value="B"/> Noah.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn1" value="C" /> Samuel.
+                        <input type="radio" name="qn1" value="C"/> Samuel.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn1" value="D" /> Elijah.
+                        <input type="radio" name="qn1" value="D"/> Elijah.
                     </div>
                 </div>
             </div>
@@ -62,22 +62,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn2" value="A" /> 2.
+                        <input type="radio" name="qn2" value="A"/> 2.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn2" value="B" /> 8.
+                        <input type="radio" name="qn2" value="B"/> 8.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn2" data-correct="true" value="C" /> 11.
+                        <input type="radio" name="qn2" data-correct="true" value="C"/> 11.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn2" value="D" /> 12.
+                        <input type="radio" name="qn2" value="D"/> 12.
                     </div>
                 </div>
             </div>
@@ -89,12 +89,12 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn3" data-correct="true" value="A" /> 40.
+                        <input type="radio" name="qn3" data-correct="true" value="A"/> 40.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn3" value="B" /> 17.
+                        <input type="radio" name="qn3" value="B"/> 17.
                     </div>
                 </div>
                 <div class="row">
@@ -117,24 +117,24 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn4" value="A" /> By stoping the rain.
+                        <input type="radio" name="qn4" value="A"/> By stoping the rain.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn4" value="B" /> He sent an angle to
+                        <input type="radio" name="qn4" value="B"/> He sent an angle to
                         him.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn4" data-correct="true" value="C" /> A
+                        <input type="radio" name="qn4" data-correct="true" value="C"/> A
                         rainbow.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn4" value="D" /> he sent sa bird.
+                        <input type="radio" name="qn4" value="D"/> he sent sa bird.
                     </div>
                 </div>
             </div>
@@ -147,22 +147,22 @@
         <div class="row answers text-white">
             <div class="row">
                 <div class="col d-flex justify-content-start">
-                    <input type="radio" name="qn5" value="A" /> Hanani.
+                    <input type="radio" name="qn5" value="A"/> Hanani.
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-start">
-                    <input type="radio" name="qn5" value="B" /> Arron.
+                    <input type="radio" name="qn5" value="B"/> Arron.
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-start">
-                    <input type="radio" name="qn5" value="C" /> John.
+                    <input type="radio" name="qn5" value="C"/> John.
                 </div>
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-start">
-                    <input type="radio" name="qn5" data-correct="true" value="D" /> Heman.
+                    <input type="radio" name="qn5" data-correct="true" value="D"/> Heman.
                 </div>
             </div>
         </div>
@@ -175,23 +175,23 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn6" value="A" />Through a dream.
+                        <input type="radio" name="qn6" value="A"/>Through a dream.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn6" value="B" />Through his Arron.
+                        <input type="radio" name="qn6" value="B"/>Through his Arron.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn6" value="C" />He sent his servant to
+                        <input type="radio" name="qn6" value="C"/>He sent his servant to
                         him.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn6" data-correct="true" value="D" />A
+                        <input type="radio" name="qn6" data-correct="true" value="D"/>A
                         burning bush.
                     </div>
                 </div>
@@ -199,23 +199,23 @@
         </div>
         <div class="row question" id="q7">
             <div class="row prompt"><b>
-                    <b> 7. What did Moses say God commanded the Pharaoh to do? </b>
+                    <b> 7. What did Moses say God commanded the Pharaoh to do?</b>
             </div>
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn7" value="A" />To give his people
+                        <input type="radio" name="qn7" value="A"/>To give his people
                         homes.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn7" value="B" />Give them food.
+                        <input type="radio" name="qn7" value="B"/>Give them food.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn7" value="C" />To lead them.
+                        <input type="radio" name="qn7" value="C"/>To lead them.
                     </div>
                 </div>
                 <div class="row">
@@ -241,12 +241,12 @@
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn8" value="C" />9
+                        <input type="radio" name="qn8" value="C"/>9
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn8" value="D" />4
+                        <input type="radio" name="qn8" value="D"/>4
                     </div>
                 </div>
             </div>
@@ -257,12 +257,12 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn9" value="A" />Hannah.
+                        <input type="radio" name="qn9" value="A"/>Hannah.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn9" value="B" />Easter.
+                        <input type="radio" name="qn9" value="B"/>Easter.
                     </div>
                 </div>
                 <div class="row">
@@ -299,7 +299,7 @@
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn10" value="D"/>mose.
+                        <input type="radio" name="qn10" value="D"/>Moses.
                     </div>
                 </div>
             </div>
@@ -310,22 +310,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn11" value="A" />Lazarus.
+                        <input type="radio" name="qn11" value="A"/>Lazarus.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn11" value="B" />Peter.
+                        <input type="radio" name="qn11" value="B"/>Peter.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn11" data-correct="true" value="C" />Judas Iscariot.
+                        <input type="radio" name="qn11" data-correct="true" value="C"/>Judas Iscariot.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn11" value="D" />John.
+                        <input type="radio" name="qn11" value="D"/>John.
                     </div>
                 </div>
             </div>
@@ -335,22 +335,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn12" value="A" />king Herod.
+                        <input type="radio" name="qn12" value="A"/>King Herod.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn12" value="B" />God.
+                        <input type="radio" name="qn12" value="B"/>God.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn12" value="C" />Abrama.
+                        <input type="radio" name="qn12" value="C"/>Abraham.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn12" data-correct="true" value="D" />Joseph.
+                        <input type="radio" name="qn12" data-correct="true" value="D"/>Joseph.
                     </div>
                 </div>
             </div>
@@ -360,22 +360,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn13" value="A" />Canaan.
+                        <input type="radio" name="qn13" value="A"/>Canaan.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn13" data-correct="true" value="B" />Nazareth.
+                        <input type="radio" name="qn13" data-correct="true" value="B"/>Nazareth.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn13" value="C" />Bethany.
+                        <input type="radio" name="qn13" value="C"/>Bethany.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn13" value="D" />Galilea.
+                        <input type="radio" name="qn13" value="D"/>Galilea.
                     </div>
                 </div>
             </div>
@@ -385,23 +385,23 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn14" value="A" />11 books.
+                        <input type="radio" name="qn14" value="A"/>11 books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn14" value="B" />15 books.
+                        <input type="radio" name="qn14" value="B"/>15 books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn14" data-correct="true" value="C" />66
+                        <input type="radio" name="qn14" data-correct="true" value="C"/>66
                         books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn14" value="D" />77 books.
+                        <input type="radio" name="qn14" value="D"/>77 books.
                     </div>
                 </div>
             </div>
@@ -411,23 +411,23 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn15" value="A" />A house.
+                        <input type="radio" name="qn15" value="A"/>A house.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn15" value="B" />A palace.
+                        <input type="radio" name="qn15" value="B"/>A palace.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn15" data-correct="true" value="C" />A
+                        <input type="radio" name="qn15" data-correct="true" value="C"/>A
                         temple.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn15" value="D" />A prison.
+                        <input type="radio" name="qn15" value="D"/>A prison.
                     </div>
                 </div>
             </div>
@@ -438,23 +438,23 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn16" data-correct="true" value="A" />39.
+                        <input type="radio" name="qn16" data-correct="true" value="A"/>39.
                         books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn16" value="B" />29 books.
+                        <input type="radio" name="qn16" value="B"/>29 books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn16" value="C" />40 books.
+                        <input type="radio" name="qn16" value="C"/>40 books.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn16" value="D" />32 books.
+                        <input type="radio" name="qn16" value="D"/>32 books.
                     </div>
                 </div>
             </div>
@@ -466,23 +466,23 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn17" data-correct="true" value="A" />3
+                        <input type="radio" name="qn17" data-correct="true" value="A"/>3
                         John.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn17" value="B" />Second John.
+                        <input type="radio" name="qn17" value="B"/>Second John.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn17" value="C" />Jude.
+                        <input type="radio" name="qn17" value="C"/>Jude.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn17" value="D" />Philemon.
+                        <input type="radio" name="qn17" value="D"/>Philemon.
                     </div>
                 </div>
             </div>
@@ -492,22 +492,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn18" data-correct="true" value="A" />10.
+                        <input type="radio" name="qn18" data-correct="true" value="A"/>10.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn18" value="B" />9.
+                        <input type="radio" name="qn18" value="B"/>9.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn18" value="C" />5.
+                        <input type="radio" name="qn18" value="C"/>5.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn18" value="D" />8.
+                        <input type="radio" name="qn18" value="D"/>8.
                     </div>
                 </div>
             </div>
@@ -517,22 +517,22 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn19" value="A" />Numbers.
+                        <input type="radio" name="qn19" value="A"/>Numbers.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn19" data-correct="true" value="B" />Psalms.
+                        <input type="radio" name="qn19" data-correct="true" value="B"/>Psalms.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn19" value="C" />Proverbs.
+                        <input type="radio" name="qn19" value="C"/>Proverbs.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn19" value="D" />Judges.
+                        <input type="radio" name="qn19" value="D"/>Judges.
                     </div>
                 </div>
             </div>
@@ -542,28 +542,26 @@
             <div class="row answers text-white">
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn20" value="A" />Revelation.
+                        <input type="radio" name="qn20" value="A"/>Revelation.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn20" value="B" />Genesis.
+                        <input type="radio" name="qn20" value="B"/>Genesis.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn20" value="C" />Deuteronomy.
+                        <input type="radio" name="qn20" value="C"/>Deuteronomy.
                     </div>
                 </div>
                 <div class="row">
                     <div class="col d-flex justify-content-start">
-                        <input type="radio" name="qn20" data-correct="true" value="D" />None.
+                        <input type="radio" name="qn20" data-correct="true" value="D"/>None.
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-</body>
-
+  </body>
 </html>
