@@ -222,7 +222,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [/](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [/](https://graciekan21.github.io/easybible/)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -230,7 +230,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21.github.io/EasyBible)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press ner.
