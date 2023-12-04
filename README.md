@@ -41,18 +41,15 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
       - [First Time Visito- Goals](#first-time-visito--goals)
       - [Returning Visitor- Goals](#returning-visitor--goals)
       - [Frequent Visitor- Goals](#frequent-visitor--goals)
-  - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Background linear-gradien](#background-linear-gradien)
     - [Features](#features)
       - [The Home Page](#the-home-page)
       - [The 404 Error Page](#the-404-error-page)
-      - [The 500 Error Page](#the-500-error-page)
-      - [Future Implementations](#future-implementations)
+      - [The Future for the site](#the-future-for-the-site)
     - [Accessibility](#accessibility)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
-    - [Frameworks, Libraries \& Progra-s Used](#frameworks-libraries--progra-s-used)
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
@@ -92,16 +89,14 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-## Design
-
 ### Colour Scheme
 
-As the pages of the site have a background image (linear-gradient), I want to change the background for photo (image) to look more clear for users.
+ Am using  website
 
 In my css file I have used variables to declare colours because it easy to make change color any time you want.
 
-- I am using `rgb(109, 125, 134)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
-- I am using `#0f1d8620`,`black`,`rgba(10, 10, 92, 0.425)` for the border and questions display.
+- I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
+- I am using `black`,`rgba(50, 50, 50, 0.825)` for the border and questions display.
 - I am using `rgb(1, 3, 3)` for the answer display.
 - 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
 - i am using `red` when answer is wrong and green when answer is correct.
@@ -113,7 +108,7 @@ Google Fonts am using to import the fonts for using in the site.
 Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
 ![Robert fonts]()
- For the body of the web-page I have using the google fonts by Robert.
+ For all the text of the web-page I am using the google fonts by Robert.
 
 ### Background linear-gradien
 
@@ -143,48 +138,33 @@ The user can only one attempt to select an answer per question untill done with 
 
 When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![pop up button](documentation/features/end.png)
+![ Alert](documentation/features/end.png)
 
-Am using a The pop up will appear one second after completing the quiz at the top of the page to show the user marks of what you got out of the number of questions.
+Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
 
 #### The 404 Error Page
 
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
+The 404 is a page on the shows on the webpage when the fails to load
 
 ![Error page image](documentation/features/404.png)
 
-#### The 500 Error Page
+#### The Future for the site
 
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
+In future I would like to:
 
-![500 Error Page](documentation/features/500.png)
-
-#### Future Implementations
-
-In future implementations I would like to:
-
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+1. I want to add interactive and engaging elements to your Bible quiz web page can enhance the user experience.
+2. Timer: Add a timer for each question to create a sense of urgency. Users can feel challenged to answer quickly, making the quiz more exciting.
+3. Multimedia: Incorporate multimedia elements such as images or short audio clips related to the questions. This can make the quiz more visually appealing and engaging.
+4. Randomized Questions: Shuffle the order of questions each time the quiz is taken to prevent users from memorizing the sequence.
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achie-ed by:
+- Using  HTML.
+- Using hover satetment.
+- Using sans-serif bold text to ensure that they are readable even for younger users
 
-- Using semant-c HTML.
-- Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a-button.
-- Choosing a sans serif font for the site - these fonts are suitable for people with d-slexia.
-- Ensuring that there is a sufficient colour contrast throughout the site.
-
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
+In future i want to put into effect a tick for the correct answer anda cross for a wrong answer
 ![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrec.ng)
 
 ---
 
@@ -194,27 +174,19 @@ In a future implementation I think it would be a great accessibility feature to 
 
 HTML, CSS, Javascript
 
-### Frameworks, Libraries & Progra-s Used
+  [Github](https://github.com/) - Using Github to store files for the web-site
 
-- [Balsamiq](https://balsamiq.com/) - Used to create wire-rames.
-
-- [Github](https://github.com/) - Using Github to store files for the web-site
-
-- [Github](https://codeanywhere.com/) - IDE used to create the site.
+  [Github](https://codeanywhere.com/) - IDE used to create the site.
 
 - [Google Fonts](https://fonts.google.com/) - using Google fonts in the web-site.
 
-- [JavaScript](https://) - A JavaScript l-brary.
+- [JavaScript](https://) - A JavaScript
   
-- [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and s-yling.
-
-- [TinyPNG](https://tinypng.com/) To compress-images
-
-- [Birme](https://www.birme.net/) To resize images and convert to webp -ormat.
+- [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features.
 
 - [Favicon.io](https://favicon.io/) To create f-vicon.
 
-- [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of d-vices.
+- [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range
 
 - [Shields.io](https://shields.io/) To add badges to the-README
 
@@ -232,12 +204,12 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [EasyBible quiz](/https://graciekan21.github.io/easybible/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/).>
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -250,7 +222,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [/](https://github.com/kera-cudmore/TheQuizArms)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
