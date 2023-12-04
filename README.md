@@ -1,8 +1,8 @@
 # EasyBible Quiz
 
-![EasyBible quiz shows on a variety of screen sizes](assets/css/style.css/images/favicon/Easy-Bible-Quiz.png)
+![EasyBible quiz shows on a variety of screen sizes](documentation/features/index.png)
 
-Visit the deployed site: [EasyBible quiz](https://graciekan21-easybible.github.io/Easybible/)
+Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
 Test your bible knowledge!
 
@@ -43,9 +43,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
       - [Frequent Visitor- Goals](#frequent-visitor--goals)
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
+    - [Background linear-gradien](#background-linear-gradien)
     - [Features](#features)
       - [The Home Page](#the-home-page)
       - [The 404 Error Page](#the-404-error-page)
@@ -109,26 +107,21 @@ In my css file I have used variables to declare colours because it easy to make 
 - i am using `red` when answer is wrong and green when answer is correct.
   ![ Color Scheme](documentation/color-scheme.webp)
 
-### Typography
-
 Google Fonts am using to import the fonts for using in the site.
 
-- For the Page Title I am using the google font [Roboto]('<https://fonts.googleapis.com/css2?family=Open+Sans:ital>,wght@1,300&family=Oswald:wght@200;300&family=Roboto&display=swap').Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
+- For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
+Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
 ![Robert fonts]()
- For the body of the web-page I have using the google fonts by Robertson 
-### Imagery
+ For the body of the web-page I have using the google fonts by Robert.
+
+### Background linear-gradien
 
 This web page has a background linear-gradien
 
-### Wireframes
-
-Wi
-
-![Home Page](documentation/wireframes/homewireframe.webp)
-![quiz](documentation/wireframes/wireframe.webp)
-![points button](documentation/wireframes/scoreswireframe.webp)
-![play again button](do/refresh/wireframes)
+![quiz](documentation/features/easybible)
+![points ](documentation/features/points.png)
+![play again button](documention/features/end.png)
 
 ### Features
 
@@ -138,9 +131,9 @@ This website is responsive and have:
 
 - A favicon in the browser.
 
-  ![favicon](documentation/favicon-imag-.webp)
+  ![favicon](documention/features/favicon.png)
 
-- The title of webpage is at the top of every page.
+- The title of webpage is at the top of page.
 
 #### The Home Page
 
@@ -150,9 +143,9 @@ The user can only one attempt to select an answer per question untill done with 
 
 When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![pop up button](documentation/features/popup.png)
+![pop up button](documentation/features/end.png)
 
-The pop up will appear one second after completing the quiz at the top of the page to show the user marks of what you got out of the number of questions.
+Am using a The pop up will appear one second after completing the quiz at the top of the page to show the user marks of what you got out of the number of questions.
 
 #### The 404 Error Page
 
