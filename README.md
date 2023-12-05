@@ -205,7 +205,7 @@ The site is deployed using GitHub Pages - [EasyBible quiz](/https://graciekan21.
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/).>
+2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/>).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -239,31 +239,23 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Solved Bu gs
 
-|   |                                                                                                       bug                                                                                                                                                                                                                                                                                                   Bug | How I solved the isue                                                                                                                                                                                           I am removing it and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
+|   |                                                                                                       bug                                                                                                                                                                                                                                                                                                   Bug | How I solved the isue                                                                                                                1.          I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to.                                                                             I solved by removing it completly and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
      rgb(156, 158, 167), as the background image. it worked.
-            #cbd2dc);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        1.                                                                                                                          I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to.
-        2.                                                                                                                         I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz
-                                                                                                                        I had to get remove it but and then worked with background-image: linear-gradient(rgb(255, 255, 255),
-     rgb(156, 158, 167), as the background image. that worked.
-            #cbd2dc);                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|   2 |    The correct marks are not showing on the pop up alert after the user finishes answering all the question.                                                                                                                           I                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|   3 |                                                                                                            Had a issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import)                                                  
+            #cbd2dc).
+
+         2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
+|
+|
+          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on <https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work>.by put the link in curly brackets
                                                                                                                                                                                                                                                                                                                                                                                       |
-|   4 |                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|   4.|                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   6 |                                                                                  |
+       In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt. 
+
+
+            
 
 ### Kno-n Bugs
-
-- When viewing on screens that use touch rather than a cursor, the colour change for the answer button selected is not immediately obvious as the hover state remains on the button. If the user clicks away from the button the colour can then been seen.
-
-  ![Touch Button Colour](documentation/touch-button-colo-r.gif)
-
-- There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
-
-  ![Console warning](documentation/interest-cohort-err-r.png)
-
-- When friends tested the site they found that very rarely a game will get stuck on a question, and it will not populate a new question but the question no counter continues to increase. This issue only seems to be if a large number of games are played consecutively, possibly using up the questions in the API. I have not been able to replicate this issue to troubleshoot further.
-  ![Question overloaded](documentation/questions-deplete.if)
 
 ---
 
@@ -271,9 +263,12 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Co-e Used
 
-- I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play s-ction.
+- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)   Bootstrap, is a great tool to work with. I really want to 
 
-- As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
+
+- By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up at the end of the quiz.
+
+- [YouTube tutorial]() to further adapt the shuffle I had researched on W3Schools to work with the data I had.
 
 As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of m- site.
 
@@ -299,10 +294,8 @@ I would like to acknowledge the following -eople:
 
 - Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer b-ttons.
 
-- [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event lis-eners.
+- I would like to express my heartfelt gratitude to [[Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176)] for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
-- [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing th- site.
+- [Jubril_Mentor]() - I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
 
-- [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessi-ility.
-
-- The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+- []() - 
