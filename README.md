@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz shows on a variety of screen sizes](documentation/features/index.png)
+![EasyBible quiz shows on a variety of screen sizes](easybible/documentation/features/index.png)
 
 Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
@@ -30,7 +30,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 ![GitHub last commit](#)
 ![GitHub contributors](#)
 ![GitHub top language](#)
-![W3C Validation](#)
+![W3C Validation](#workspace/easybible/testing)
 
 ## CONTENTS
 
@@ -250,10 +250,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
                                                                                                                                                                                                                                                                                                                                                                                       |
 |   4.|                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   6 |                                                                                  |
-       In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt. 
-
-
-            
+       In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
 
 ### Kno-n Bugs
 
@@ -263,32 +260,29 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Co-e Used
 
-- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)   Bootstrap, is a great tool to work with. I really want to 
-
+- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)   Bootstrap, is a great tool to work with. I really want to.
 
 - By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up at the end of the quiz.
 
-- [YouTube tutorial]() to further adapt the shuffle I had researched on W3Schools to work with the data I had.
+- [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me to understand how to use bootstrap for my page.
 
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of m- site.
+  
 
-- I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to -plice.
-
-- I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
+- For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work)  because @import link was causing errors in the css
 
 ### Content
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
+For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/).
 
-All other content for the site, such as introduction messages and instructions were written by myself.
+For rest of the content for the webpage, like title, heading  and instructions was written by myself.
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+[Favicon](https://icons8.com/icons/set/favicon)
 
 ### Acknowledgments
 
-I would like to acknowledge the following -eople:
+I would like to Acknowledge
 
 - degbenga Adeye - My Code Institute -entor.
 
