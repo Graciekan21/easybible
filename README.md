@@ -23,15 +23,13 @@ Personal and Spiritual Development: Creating or participating in Bible quizzes c
 Community Building:
 
 Church Groups and Communities: Bible quizzes can serve as a fun and interactive way to bring members of a church community together. They provide a shared activity that promotes fellowship and discussion around biblical topics.
-Online Ministry:
+ Online Ministry:
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
 ![GitHub last commit](#<https://github.com/Graciekan21/easybible/tree/main#easybible-quiz)>
 ![GitHub contributors](#)
-
-![GitHub top language](#)
-
+![GitHub top language](#Html,css,Javascript)
 
 ## CONTENTS
 
@@ -243,10 +241,11 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 |
 |
-          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on <https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work>.by put the link in curly brackets
-                                                                                                                                                                                                                                                                                                                                                                                    |
+          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on <https://stackoverflow.com/questions/44259509/css-im                                                                                                                                                                                                                                                                                                                                                                                    |
 |        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   6 |                                                                                  |
+         |
+>>>>>>> 39e6dba (deleted files from the main)
        In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
 
 ### Kno-n Bugs
@@ -285,6 +284,4 @@ I would like to Acknowledge
 
 - I would like to express my heartfelt gratitude to [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
-- [Jubril_Mentor] - I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
-
-  
+- [Jubril_Mentor](my mentor code institute)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
