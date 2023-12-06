@@ -28,7 +28,7 @@ Church Groups and Communities: Bible quizzes can serve as a fun and interactive 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
 ![GitHub last commit](#<https://github.com/Graciekan21/easybible/tree/main#easybible-quiz)>
-![GitHub contributors](#)
+
 ![GitHub top language](#Html,css,Javascript)
 
 ## CONTENTS
@@ -65,7 +65,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-![Quiz Columns ](documentation/Easy-Bible-Q.png)
+![Quiz Column](workspace/easybible/documentation/features)
 
 ## User Experience (UX)
 
@@ -113,9 +113,8 @@ Roboto has a dual nature. It has a mechanical skeleton and the forms are largely
 
 This web page has a background linear-gradien
 
-![quiz](documentation/features)
-![points ]()
-![play again button]()
+![Quiz](/documentation/features/answers.png)
+![Points](/documentation/features/marks.png)
 
 ### Features
 
@@ -125,7 +124,7 @@ This website is responsive and have:
 
 - A favicon in the browser.
 
-  ![favicon](documention/features/favicon.png)
+  ![Favicon](documention/features/favicon.png)
 
 - The title of webpage is at the top of page.
 
@@ -137,7 +136,7 @@ The user can only one attempt to select an answer per question untill done with 
 
 When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![ Alert](documentation/features/end.png)
+![Alert](documentation/features/answers.png)
 
 Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
 
@@ -163,7 +162,7 @@ In future I would like to:
 - Using sans-serif bold text to ensure that they are readable even for younger users
 
 In future i want to put into effect a tick for the correct answer anda cross for a wrong answer
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
+![Colour blindness (red/green) correct answer](documentation/features/answers.png)
 
 ---
 
@@ -241,12 +240,16 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 |
 |
-          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on <https://stackoverflow.com/questions/44259509/css-im                                                                                                                                                                                                                                                                                                                                                                                    |
+          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on 
+|
 |        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
-|   6 |                                                                                  |
-         |
->>>>>>> 39e6dba (deleted files from the main)
-       In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
+|   5 |                                                                                  |
+         |In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
+   
+     
+     6. I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support
+
+
 
 ### Kno-n Bugs
 
@@ -285,3 +288,8 @@ I would like to Acknowledge
 - I would like to express my heartfelt gratitude to [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
 - [Jubril_Mentor](my mentor code institute)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
+
+- [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
+A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
+
+[]
