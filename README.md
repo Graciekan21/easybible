@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz shows on a variety of screen sizes](#easybible-quiz/documentation/features/easybible/index.png)
+![EasyBible quiz](#easybible-quiz/documentation/features/index.png)
 
 Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
