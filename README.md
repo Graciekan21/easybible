@@ -65,7 +65,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-![Quiz](/documentation/features/easybible.png)
+![Quiz](/documentation/features/answer.png)
 
 ## User Experience (UX)
 
@@ -99,22 +99,18 @@ In my css file I have used variables to declare colours because it easy to make 
 - I am using `rgb(1, 3, 3)` for the answer display.
 - 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
 - i am using `red` when answer is wrong and green when answer is correct.
-  ![ Color Scheme](documentation/color-scheme.webp)
 
-Google Fonts am using to import the fonts for using in the site.
+ Google Fonts am using to import the fonts for using in the site.
 
 - For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
 Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
-![Robert fonts]()
+![Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
  For all the text of the web-page I am using the google fonts by Robert.
 
 ### Background linear-gradien
 
 This web page has a background linear-gradien
-
-![Quiz](/documentation/features/answers.png)
-![Points]
 
 ### Features
 
@@ -136,7 +132,7 @@ The user can only one attempt to select an answer per question untill done with 
 
 When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![Alert](/documentation/features/answers.png)
+![Alert](/documentation/features/marks.png)
 
 Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
 
@@ -229,7 +225,8 @@ To clone the repository:
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+Please refer toHTML  [w3 validator](/documentation/features/w3.png/) file for all testing carried out.
+[w3 validator](/testing/w3%20validator.png)
 
 ### Solved Bu gs
 
