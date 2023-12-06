@@ -65,7 +65,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-![Quiz Columns](/documentation/features/easybible.pg)
+![Quiz](/documentation/features/easybible.png)
 
 ## User Experience (UX)
 
@@ -118,15 +118,13 @@ This web page has a background linear-gradien
 
 ### Features
 
-This webpage is composed of a one page website which is the quiz page, it has points scored button, a pop up when the question are answered to show the scores, a play again button to erase the answers for restart; a 404 error page & a 500 error page.
+This webpage is composed of a one page website which is the quiz page, it has points scored button, a pop up when the question are answered to show the scores, a play again button to erase the answers for restart; a 404 error page.
 
 This website is responsive and have:
 
 - A favicon in the browser.
 
   ![Favicon](/documentation/features/favicon.png)
-
-
 
 - The title of webpage is at the top of page.
 
@@ -242,16 +240,13 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 |
 |
-          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on 
+          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
 |
 |        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   5 |                                                                                  |
          |In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
-   
-     
+
      6. I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support
-
-
 
 ### Kno-n Bugs
 
