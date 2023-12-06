@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz](#easybible-quiz/documentation/features/index.png)
+![EasyBible quiz](documentation/features/easybible.png)
 
 Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
@@ -58,7 +58,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
     - [Solved Bu gs](#solved-bu-gs)
     - [Kno-n Bugs](#kno-n-bugs)
   - [Credits](#credits)
-    - [Co-e Used](#co-e-used)
+    - [Code Used](#code-used)
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgments](#acknowledgments)
@@ -258,7 +258,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ## Credits
 
-### Co-e Used
+### Code Used
 
 - By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)   Bootstrap, is a great tool to work with. I really want to.
 
