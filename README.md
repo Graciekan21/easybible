@@ -113,7 +113,7 @@ Roboto has a dual nature. It has a mechanical skeleton and the forms are largely
 
 This web page has a background linear-gradien
 
-![Quiz](/assets/css/style.css/documentation/features/answers.png)
+![Quiz](/documentation/features/answers.png)
 ![Points]
 
 ### Features
