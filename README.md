@@ -113,8 +113,8 @@ Roboto has a dual nature. It has a mechanical skeleton and the forms are largely
 
 This web page has a background linear-gradien
 
-![Quiz](/documentation/features/answers.png)
-![Points](/documentation/features/marks.png)
+![Quiz](/assets/css/style.css/documentation/features/answers.png)
+![Points]
 
 ### Features
 
@@ -124,7 +124,10 @@ This website is responsive and have:
 
 - A favicon in the browser.
 
-  ![Favicon](documention/features/favicon.png)
+  
+  ![Favicon](/documention/features/favicon.png)
+
+
 
 - The title of webpage is at the top of page.
 
@@ -136,7 +139,7 @@ The user can only one attempt to select an answer per question untill done with 
 
 When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
 
-![Alert](documentation/features/answers.png)
+![Alert](/documentation/features/answers.png)
 
 Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
 
