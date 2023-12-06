@@ -44,10 +44,8 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
     - [Background linear-gradien](#background-linear-gradien)
     - [Features](#features)
       - [The Home Page](#the-home-page)
-      - [The 404 Error Page](#the-404-error-page)
       - [The Future for the site](#the-future-for-the-site)
     - [Accessibility](#accessibility)
-  - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
@@ -105,7 +103,7 @@ In my css file I have used variables to declare colours because it easy to make 
 - For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
 Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
-![Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
+[Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
  For all the text of the web-page I am using the google fonts by Robert.
 
 ### Background linear-gradien
@@ -136,12 +134,6 @@ When the answer a user chooses one of the answers, if the answer chosen is wrong
 
 Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
 
-#### The 404 Error Page
-
-The 404 is a page on the shows on the webpage when the fails to load
-
-![Error page image](documentation/features/404.png)
-
 #### The Future for the site
 
 In future I would like to:
@@ -159,10 +151,6 @@ In future I would like to:
 
 In future i want to put into effect a tick for the correct answer anda cross for a wrong answer
 ![Colour blindness (red/green) correct answer](/documentation/features/answers.png)
-
----
-
-## Technologies Used
 
 ### Languages Used
 
@@ -225,8 +213,9 @@ To clone the repository:
 
 ## Testing
 
-Please refer toHTML  [w3 validator](/documentation/features/w3.png/) file for all testing carried out.
-[w3 validator](/testing/w3%20validator.png)
+ ![w3 validator](/documentation/features/w3.png/) all  are validated through w3 validator
+![w3 validator](/testing/w3%20validator.png)
+![lighthouse](/testing/lighthouse.md)
 
 ### Solved Bu gs
 
