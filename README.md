@@ -27,9 +27,9 @@ Church Groups and Communities: Bible quizzes can serve as a fun and interactive 
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
-![GitHub last commit](#<https://github.com/Graciekan21/easybible/tree/main#easybible-quiz)>
+![GitHub last commit](#)
 
-![GitHub top language](#Html,css,Javascript)
+![GitHub top language](#Html-css-Javascript)
 
 ## CONTENTS
 
@@ -65,7 +65,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-![Quiz Column](workspace/easybible/documentation/features)
+![Quiz Columns](/documentation/features/easybible.pg)
 
 ## User Experience (UX)
 
@@ -124,8 +124,7 @@ This website is responsive and have:
 
 - A favicon in the browser.
 
-  
-  ![Favicon](/documention/features/favicon.png)
+  ![Favicon](/documentation/features/favicon.png)
 
 
 
@@ -165,7 +164,7 @@ In future I would like to:
 - Using sans-serif bold text to ensure that they are readable even for younger users
 
 In future i want to put into effect a tick for the correct answer anda cross for a wrong answer
-![Colour blindness (red/green) correct answer](documentation/features/answers.png)
+![Colour blindness (red/green) correct answer](/documentation/features/answers.png)
 
 ---
 
