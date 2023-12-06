@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz shows on a variety of screen sizes](index.html/documentation/features/index.png)
+![EasyBible quiz shows on a variety of screen sizes](#easybible-quiz/documentation/features/easybible/index.png)
 
 Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
@@ -27,10 +27,11 @@ Online Ministry:
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
-![GitHub last commit](#)
+![GitHub last commit](#<https://github.com/Graciekan21/easybible/tree/main#easybible-quiz)>
 ![GitHub contributors](#)
+
 ![GitHub top language](#)
-![W3C Validation](#workspace/easybible/testing)
+
 
 ## CONTENTS
 
@@ -114,9 +115,9 @@ Roboto has a dual nature. It has a mechanical skeleton and the forms are largely
 
 This web page has a background linear-gradien
 
-![quiz](documentation/features/easybible)
-![points ](documentation/features/points.png)
-![play again button](documention/features/end.png)
+![quiz](documentation/features)
+![points ]()
+![play again button]()
 
 ### Features
 
@@ -174,25 +175,21 @@ In future i want to put into effect a tick for the correct answer anda cross for
 
 HTML, CSS, Javascript
 
-  [Github](https://github.com/) - Using Github to store files for the web-site
+  [Github](https://github.com/) - On github is where you the page file are stored
 
   [Github](https://codeanywhere.com/) - IDE used to create the site.
 
-- [Google Fonts](https://fonts.google.com/) - using Google fonts in the web-site.
+- [Google Fonts](https://fonts.google.com/Roboto) - using Google fonts in the web-site.
 
 - [JavaScript](https://) - A JavaScript
   
-- [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features.
+- [Google Developer Tools](https://developers.google.com/web/tools) - that troubleshoot and test features.
 
-- [Favicon.io](https://favicon.io/) To create f-vicon.
+- [Favicon.io](https://favicon.io/) To create favicon.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range
 
-- [Shields.io](https://shields.io/) To add badges to the-README
-
-- [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would -ee it.
-
-- [Webpage Spell-Check](https://www.grammarly.com//) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errs.
+- [Webpage Spell-Check](https://www.grammarly.com//) - I used it for checking spellings while documenting my readme.
 
 ---
 
@@ -200,12 +197,12 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [EasyBible quiz](/https://graciekan21.github.io/easybible/).
+The site is deployed using GitHub Pages - [EasyBible quiz](/<https://graciekan21.github.io/easybible/).>
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/>).
+2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/).>
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -226,7 +223,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21.github.io/EasyBible)
+2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21-easybible-0xgggcdc0b.us2.codeanyapp.com/#/workspaces/easybible)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press ner.
@@ -254,6 +251,10 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Kno-n Bugs
 
+- Background and foreground colors do not have a sufficient contrast ratio.
+- Form elements do not have associated labels.
+- Robots.txt is not validLighthouse was unable to download a robots.txt file.
+
 ---
 
 ## Credits
@@ -266,13 +267,11 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 - [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me to understand how to use bootstrap for my page.
 
-  
-
 - For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work)  because @import link was causing errors in the css
 
 ### Content
 
-For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/).
+For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/).>
 
 For rest of the content for the webpage, like title, heading  and instructions was written by myself.
 
@@ -284,12 +283,8 @@ For rest of the content for the webpage, like title, heading  and instructions w
 
 I would like to Acknowledge
 
-- degbenga Adeye - My Code Institute -entor.
+- I would like to express my heartfelt gratitude to [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
-- Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer b-ttons.
+- [Jubril_Mentor] - I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
 
-- I would like to express my heartfelt gratitude to [[Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176)] for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
-
-- [Jubril_Mentor]() - I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
-
-- []() - 
+  
