@@ -1,7 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz](documentation/features/easybible.png)
-
+![EasyBible quiz](d
 Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
 Test your bible knowledge!
