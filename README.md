@@ -157,11 +157,11 @@ colour blindness (red/green) correct answer.
 
 HTML, CSS, Javascript
 
-  [Github](https://github.com/) - On github is where you the page file are stored
+  [Github](https://github.com/) - On github is where the page files are stored
 
   [Github](https://codeanywhere.com/) - IDE used to create the site.
 
-- [Google Fonts](https://fonts.google.com/Roboto) - using Google fonts in the web-site.
+- [Google Fonts](https://fonts.google.com/Roboto) - The Google fonts i used in the web-site.
 
 - [JavaScript](https://) - A JavaScript
   
