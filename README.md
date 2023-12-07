@@ -23,13 +23,13 @@ Personal and Spiritual Development: Creating or participating in Bible quizzes c
 Community Building:
 
 Church Groups and Communities: Bible quizzes can serve as a fun and interactive way to bring members of a church community together. They provide a shared activity that promotes fellowship and discussion around biblical topics.
- Online Ministry:
+Online Ministry:
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
- GitHub last commit()
+- [GitHub last commit]
 
-- [GitHub top language](#Html-css-Javascript)
+- [GitHub top language](Html-css-Javascript)
 
 ## CONTENTS
 
@@ -60,6 +60,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgments](#acknowledgments)
+  - [happycoding](#happycoding)
 
 ---
 
@@ -226,13 +227,14 @@ To clone the repository:
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 |
 |
-          3.   |                                                                                                                                I had an issue with the  (Google fonts) the link was making an error in style.css because i put a link (@import), it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
+          3.   |                                                                                                                            ![Google-fonts](/testing/bugs.png)  I had an issue with the Google fonts the link was making an error in style.css because i put a link @import, it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
 |
 |        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   5 |                                                                                  |
          |In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
 
-     6. I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support
+     6. ![solved-bug](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
+        git pull and git rebase
 
 ### Kno-n Bugs
 
@@ -275,4 +277,4 @@ I would like to Acknowledge
 - [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
 A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
 
-[#happycoding]
+## happycoding
