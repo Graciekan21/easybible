@@ -214,8 +214,10 @@ To clone the repository:
 
 ## Testing
 
-![w3 validator](/documentation/features/w3.png/) all  are validated through w3 validator
+![w3 validator](/documentation/features/w3.png/)
+ all  are validated through w3 validator
 ![w3 validator](/testing/w3%20validator.png)
+
 ![lighthouse](/testing/lighthouse.png)
 
 ### Solved Bu gs
@@ -227,7 +229,7 @@ To clone the repository:
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 |
 |
-          3.   |                                                                                                                            ![Google-fonts](/testing/bugs.png)  I had an issue with the Google fonts the link was making an error in style.css because i put a link @import, it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
+          3.   |                                                                                                                            Google-fonts I had an issue with the Google fonts the link was making an error in style.css because i put a link @import, it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
 |
 |        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
 |   5 |                                                                                  |
