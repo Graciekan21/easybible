@@ -27,9 +27,9 @@ Church Groups and Communities: Bible quizzes can serve as a fun and interactive 
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
-![GitHub last commit](#)
+ GitHub last commit()
 
-![GitHub top language](#Html-css-Javascript)
+- [GitHub top language](#Html-css-Javascript)
 
 ## CONTENTS
 
@@ -268,11 +268,11 @@ For rest of the content for the webpage, like title, heading  and instructions w
 
 I would like to Acknowledge
 
-- I would like to express my heartfelt gratitude to [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
+- [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) I would like to express my heartfelt gratitude tofor helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
 - [Jubril_Mentor](my mentor code institute)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
 
 - [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
 A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
 
-[]
+[#happycoding]
