@@ -218,7 +218,7 @@ To clone the repository:
  all  are validated through w3 validator
 ![w3 validator](/testing/w3%20validator.png)
 
-![lighthouse](/testing/lighthouse/performace.png)
+![lighthouse](/documentation/features/lighthouse.png)
 
 ### Solved Bu gs
 
