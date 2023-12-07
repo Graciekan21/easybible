@@ -64,7 +64,7 @@ Reaching a Global Audience: With the rise of online platforms, individuals and o
 
 ---
 
-![Quiz](/documentation/features/answer.png)
+![Answers](/documentation/features/answer.png)
 
 ## User Experience (UX)
 
@@ -214,9 +214,9 @@ To clone the repository:
 
 ## Testing
 
- ![w3 validator](/documentation/features/w3.png/) all  are validated through w3 validator
+![w3 validator](/documentation/features/w3.png/) all  are validated through w3 validator
 ![w3 validator](/testing/w3%20validator.png)
-![lighthouse](/testing/lighthouse.md)
+![lighthouse](/testing/lighthouse.png)
 
 ### Solved Bu gs
 
@@ -234,7 +234,7 @@ To clone the repository:
          |In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
 
      6. ![solved-bug](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
-        git pull and git rebase
+        git pull and git rebase than commited the files to the main branch.
 
 ### Kno-n Bugs
 
