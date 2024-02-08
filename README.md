@@ -2,7 +2,7 @@
 
 ![EasyBible quiz](documentation/features/easybible.png)
 
-Visit the deployed site: [EasyBible quiz](https://graciekan21.github.io/easybible/)
+Visit the deployed live site: [HERE](https://graciekan21.github.io/easybible/)
 
 Test your bible knowledge!
 
@@ -27,7 +27,7 @@ Online Ministry:
 
 Reaching a Global Audience: With the rise of online platforms, individuals and organizations may create Bible quizzes as a way to reach a global audience, allowing people from different parts of the world to engage in discussions about the Bible, Many more.
 
-- [GitHub-last-commit](last-commit)
+
 
 - [GitHub top language](Html-css-Javascript)
 
