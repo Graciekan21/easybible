@@ -3,6 +3,7 @@
 window.onload = function () {
     let questions = document.querySelectorAll(".question");//collect all questions and their answers
     let totalQuestions = questions.length;
+    let totalScore = 0;
     //loop through each question card
     for (let i = 0; i < questions.length; i++) {
         let myQ = questions[i];
@@ -17,7 +18,14 @@ window.onload = function () {
             });
             //add a click listener to the answer element only
             myAns.addEventListener("click", function () {
-                alert(myAns.value);
+                //check if its the correct answer
+                let correct = (myAns.hasAttribute("data-correct") && myAns.getAttribute("data-correct"));
+                if (correct) {
+                    //correct answer
+                    totalScore++;
+                } else {
+                    //incorrect answer
+                }
             });
         }
     }
