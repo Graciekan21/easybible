@@ -20,11 +20,23 @@ window.onload = function () {
             myAns.addEventListener("click", function () {
                 //check if its the correct answer
                 let correct = (myAns.hasAttribute("data-correct") && myAns.getAttribute("data-correct"));
+                for (let x = 0; x < myAnswers.length; x++) {
+                    myAnswers[x].disabled = true;
+                }
                 if (correct) {
                     //correct answer
                     totalScore++;
+                    myAns.parentNode.style.backgroundColor = 'green';
                 } else {
-                    //incorrect answer
+                    //incorrect answer, highlight red
+                    myAns.parentNode.style.backgroundColor = 'red';
+                    for (let y = 0; y < myAnswers.length; y++) {
+                        let correctAns = (myAnswers[y].hasAttribute("data-correct") && myAnswers[y].getAttribute("data-correct"));
+                        //check if its the correct answer and highlt to green
+                        if (correctAns) {
+                            myAnswers[y].parentElement.style.backgroundColor = 'green';
+                        }
+                    }
                 }
             });
         }
