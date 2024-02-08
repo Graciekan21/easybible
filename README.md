@@ -12,7 +12,7 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 
 [YouGov](https://today.yougov.com/topics/politics/explore/topic/The_Bible-Topic) show that 48% of people are round the world surveyed have heard of a Bible quiz, and are rated as the very influential.
 
- ## CONTENTS
+# CONTENTS
 
 - [EasyBible Quiz](#easybible-quiz)
   - [CONTENTS](#contents)
@@ -106,7 +106,7 @@ Remember, EasyBible is designed with your learning and enjoyment in mind. Whethe
 
 #### Returning Visitor- Goals
 
- #### Frequent Visitor- Goals
+### Frequent Visitor- Goals
 
 - I want to be able to add in a kids corn quiz, hard level and hardest level of question.
 - I want to be able to add it social media platforms.
@@ -115,7 +115,7 @@ Remember, EasyBible is designed with your learning and enjoyment in mind. Whethe
 
 ### Colour Scheme
 
- Am using  website
+m using wbsite
 
 In my css file I have used variables to declare colours because it easy to make change color any time you want.
 
@@ -125,13 +125,13 @@ In my css file I have used variables to declare colours because it easy to make 
 - 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
 - i am using `red` when answer is wrong and green when answer is correct.
 
- Google Fonts am using to import the fonts for using in the site.
+oogle Fonts am using to import the fonts for using in the site.
 
 - For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
-Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
+    Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
 [Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
- For all the text of the web-page I am using the google fonts by Robert.
+or all the text of the web-page I am using the google fonts by Robert.
 
 ### Background linear-gradien
 
@@ -159,7 +159,7 @@ When the answer a user chooses one of the answers, if the answer chosen is wrong
 
 ![Alert](/documentation/features/marks.png)
 
-Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have  got out of the number of questions.
+Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have ot out of the number of questions.
 
 #### The Future for the site
 
@@ -172,7 +172,7 @@ In future I would like to:
 
 ### Accessibility
 
-- Using  HTML.
+- Using TML.
 - Using hover satetment.
 - Using sans-serif bold text to ensure that they are readable even for younger users
 
@@ -183,15 +183,13 @@ colour blindness (red/green) correct answer.
 
 HTML, CSS, Javascript
 
-  [Github](https://github.com/) - On github is where the page files are stored
+ithub](https://github.com/) - On github is where the page files are stored
 
-  [Github](https://codeanywhere.com/) - IDE used to create the site.
+ithub](https://codeanywhere.com/) - IDE used to create the site.
 
 - [Google Fonts](https://fonts.google.com/Roboto) - The Google fonts i used in the web-site.
 
 - [JavaScript](https://) - A JavaScript
-  
-- [Google Developer Tools](https://developers.google.com/web/tools) - that troubleshoot and test features.
 
 - [Favicon.io](https://favicon.io/) To create favicon.
 
@@ -241,26 +239,21 @@ To clone the repository:
 ## Testing
 
 ![w3 validator](/documentation/features/w3.png/)
- all  are validated through w3 validator
-![w3 validator](/testing/w3%20validator.png)
+all are validated through w3 validator
+[w3 alidator](/testing/w3%20validator.png)
 
 ![lighthouse](/documentation/features/lighthouse.png)
 
 ### Solved Bu gs
 
-|   |                                                                                                       bug                                                                                                                                                                                                                                                                                                   Bug | How I solved the isue                                                                                                                1.          I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to.                                                                             I solved by removing it completly and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
-     rgb(156, 158, 167), as the background image. it worked.
-            #cbd2dc).
-
+| | bug Bug | How I solved the isue 1. I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to. I solved by removing it completly and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
+rg15dc).
          2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
-|
-|
-          3.   |                                                                                                                            Google-fonts I had an issue with the Google fonts the link was making an error in style.css because i put a link @import, it was showing error in the W3 css validator. Solved it by watch youtube channels on howways of putting google fonts in css  and i got a solution on.
-|
-|        4.   |                                                                                                          When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements  and when i removed them then it had no errors.                                                                                                                                                                                                                                                                                                                        |
-|   5 |                                                                                  |
-         |In my html was in Auto save but i didn't know from start and everytime i save the i noticed  a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
 
+
+|
+|| 4. | When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements and when i removed them then it had no errors. |
+|| my iced a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
      6. ![Bugs](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
         git pull and git rebase than commited the files to the main branch.
 
@@ -276,19 +269,19 @@ To clone the repository:
 
 ### Code Used
 
-- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)   Bootstrap, is a great tool to work with. I really want to.
+- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css) Bootstrap, is a great tool to work with. I really want to.
 
 - By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up at the end of the quiz.
 
 - [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me to understand how to use bootstrap for my page.
 
-- For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work)  because @import link was causing errors in the css
+- For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work) because @import link was causing errors in the css
 
 ### Content
 
 For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/).>
 
-For rest of the content for the webpage, like title, heading  and instructions was written by myself.
+For rest of the content for the webpage, like title, heading and instructions was written by myself.
 
 ### Media
 
@@ -303,6 +296,5 @@ I would like to Acknowledge
 - [Jubril_Mentor](my mentor code institute)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
 
 - [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
-A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
-
-## happycoding
+  A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
+  
