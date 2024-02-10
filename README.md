@@ -66,8 +66,6 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 
 ### User Stories
 
-First Time Visitor Goals
-
 - As a first-time visitor to EasyBible, my goal is to explore the platform and understand how the quiz works.
 - I want to navigate the interface easily and start the quiz without any confusion.
 - I aim to enjoy the quiz experience while learning more about the Bible in an engaging way.
@@ -114,13 +112,11 @@ Remember, EasyBible is designed with your learning and enjoyment in mind. Whethe
 ---
 
 ### Colour Scheme
-
-m using wbsite
-
+ 
 In my css file I have used variables to declare colours because it easy to make change color any time you want.
 
-- I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
-- I am using `black`,`rgba(50, 50, 50, 0.825)` for the border and questions display.
+I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
+- I am using `bl- ack`,`rgba(50, 50, 50, 0.825)` for the border and questions display.
 - I am using `rgb(1, 3, 3)` for the answer display.
 - 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
 - i am using `red` when answer is wrong and green when answer is correct.
