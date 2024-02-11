@@ -78,9 +78,10 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 
 `Returning Visitors`
 
-| Goals                                                                                                                             | How are they achieved?                                                                                                                                                               |
-| :-------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Engage in Bible Knowledge Quizzes: Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. | Content Availability: EasyBible offers a diverse range of Bible knowledge quiz questions, ensuring returning visitors have new and engaging content to explore each time they visit. | Convenient Access: Visitors can access the website at their convenience from any device with an internet connection. | Responsive Design: The website is designed to be responsive, ensuring a seamless experience for returning visitors regardless of the device they are using to access the site. This responsiveness allows visitors to engage with the quizzes from various devices, including desktop computers, tablets, and smartphones. |
+|  Goals | How are they achieved? |
+| :--- | :--- |
+| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
+
 
 `Frequent Visitors`
 
