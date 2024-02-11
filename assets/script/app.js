@@ -4,6 +4,7 @@ window.onload = function () {
     let questions = document.querySelectorAll(".question");//collect all questions and their answers
     let totalQuestions = questions.length;
     let totalScore = 0;
+    let attempted= 0;
     //loop through each question card
     for (let i = 0; i < questions.length; i++) {
         let myQ = questions[i];
@@ -20,6 +21,7 @@ window.onload = function () {
             myAns.addEventListener("click", function () {
                 //check if its the correct answer
                 let correct = (myAns.hasAttribute("data-correct") && myAns.getAttribute("data-correct"));
+                attempted++;
                 for (let x = 0; x < myAnswers.length; x++) {
                     myAnswers[x].disabled = true;
                 }
@@ -37,8 +39,29 @@ window.onload = function () {
                             myAnswers[y].parentElement.style.backgroundColor = 'green';
                         }
                     }
+                    
                 }
+                //update correct marks counts
+                document.getElementById('points').innerHTML=totalScore ;
+                //check if completed all the question
+                if (attempted==totalQuestions) {
+                    showMarks();
+                }
+                
             });
+            async function showMarks() {
+                //for showing marks after finishing all questions
+                if (attempted==totalQuestions) {
+                    //wait 1 second before popup
+                    setTimeout(function () { 
+                        Swal.fire({
+                            title: "Total Marks",
+                            text: "You got " + (totalScore ) + "/" + totalQuestions,
+                            icon: "success"
+                        });
+                    }, 500);
+                }
+            }
         }
     }
 };
