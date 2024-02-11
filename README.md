@@ -15,13 +15,13 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 # CONTENTS
 
 - [EasyBible Quiz](#easybible-quiz)
-  - [CONTENTS](#contents)
+- [CONTENTS](#contents)
   - [Introduction](#introduction)
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories](#user-stories)
       - [First Time Visito- Goals](#first-time-visito--goals)
       - [Returning Visitor- Goals](#returning-visitor--goals)
-      - [Frequent Visitor- Goals](#frequent-visitor--goals)
+    - [Frequent Visitor- Goals](#frequent-visitor--goals)
     - [Colour Scheme](#colour-scheme)
     - [Background linear-gradien](#background-linear-gradien)
     - [Features](#features)
@@ -42,7 +42,6 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
     - [Content](#content)
     - [Media](#media)
     - [Acknowledgments](#acknowledgments)
-  - [happycoding](#happycoding)
 
 ## Introduction
 
@@ -61,8 +60,6 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 - Interactive Feedback: Receive instant feedback on your answers as you progress through the quiz, allowing you to learn and improve in real-time.
 
 - Progress Tracking: Keep track of your progress with the points counter displayed prominently at the top of the screen, motivating you to strive for a higher score.
-
-- Play Again Option: Enjoy the thrill of the quiz as many times as you like with the "Play Again" button conveniently located at the top of the screen, encouraging repeat engagement
 
 ### User Stories
 
@@ -112,10 +109,11 @@ Remember, EasyBible is designed with your learning and enjoyment in mind. Whethe
 ---
 
 ### Colour Scheme
- 
+
 In my css file I have used variables to declare colours because it easy to make change color any time you want.
 
 I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
+
 - I am using `bl- ack`,`rgba(50, 50, 50, 0.825)` for the border and questions display.
 - I am using `rgb(1, 3, 3)` for the answer display.
 - 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
@@ -124,7 +122,7 @@ I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors 
 oogle Fonts am using to import the fonts for using in the site.
 
 - For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
-    Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
+  Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
 
 [Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
 or all the text of the web-page I am using the google fonts by Robert.
@@ -243,15 +241,12 @@ all are validated through w3 validator
 ### Solved Bu gs
 
 | | bug Bug | How I solved the isue 1. I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to. I solved by removing it completly and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
-rg15dc).
-         2.                                                                                                              The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
-
+rg15dc). 2. The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
 
 |
 || 4. | When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements and when i removed them then it had no errors. |
-|| my iced a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt.
-     6. ![Bugs](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
-        git pull and git rebase than commited the files to the main branch.
+|| my iced a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt. 6. ![Bugs](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
+git pull and git rebase than commited the files to the main branch.
 
 ### Kno-n Bugs
 
@@ -293,4 +288,3 @@ I would like to Acknowledge
 
 - [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
   A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
-  
