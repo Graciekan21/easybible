@@ -105,17 +105,19 @@ Each device tested the site using the following browsers:
 
 Additional testing was conducted by friends and family on various devices and screen sizes. They reported no issues while playing.
 
+`Home Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass |
-| Points  | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |
-| Modal close button | Closes the modal | Clicked on close button | Modal closed | Pass |
-| Play Button | Directs the user to the game page | Clicked on button | Game page opens to display the difficulty selections | Pass |
-| High Scores Button | Directs the user to the high scores page | Clicked on button | Directs to the high scores page | Pass |
-| All buttons - hover effect | All black buttons with white text should change to white with black text when hovered over. | Hover over each button on the page |   ||
-|  | |  |  |
+| Points  | Display the accumulated points for correct answers during the quiz. | Displays points | 
+A SweetAlert modal pops up and displays the marks obtained from the quiz. | Pass |
 
 
-
+`quiz Page`
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass 
+|The quiz page .| Answering Bible questions with each question having 4 answers to choose from, with only one being correct.|The chosen answer is displayed, and if it is incorrect, it is highlighted in red. The correct answer is then shown in green. |  pass|
+| Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.| Pass |
 
 
