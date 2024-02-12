@@ -49,15 +49,13 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 
 ### Desktop Results
 
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
+![index.html](/documentation/desktop.png)
 
 ### Mobile Results
 
-![pop up]()
+![pop up](/documentation/pop-up.png)
 
-![game.page]()
-
-![highscores]()
+![quiz-mobile-screen.page](/documentation/quiz-mobile-screen.png)
 
 ---
 
@@ -87,3 +85,37 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 |                                                                                                                                   
 
 ---
+
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * Macbook Pro 2021 14 inch screen
+* Mobile Devices:
+  * iPhone 14 pro.
+  * Samsung Galaxy flod.
+  * Samung Galaxy s20 ultra.
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
+Additional testing was conducted by friends and family on various devices and screen sizes. They reported no issues while playing.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass |
+| Points  | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |
+| Modal close button | Closes the modal | Clicked on close button | Modal closed | Pass |
+| Play Button | Directs the user to the game page | Clicked on button | Game page opens to display the difficulty selections | Pass |
+| High Scores Button | Directs the user to the high scores page | Clicked on button | Directs to the high scores page | Pass |
+| All buttons - hover effect | All black buttons with white text should change to white with black text when hovered over. | Hover over each button on the page |   ||
+|  | |  |  |
+
+
+
+
+

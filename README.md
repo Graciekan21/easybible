@@ -76,7 +76,7 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 - Buttons are employed for navigation across the site, resembling the style often seen in mobile applications. In line with this mobile app-like approach, I opted against incorporating a traditional navigation bar or footer, as these elements could detract from the desired aesthetic. Instead, the page title serves as a direct link to the home page, ensuring seamless navigation for users
 
 #### Returning Visitor- Goals
-- Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics.
+- Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. 
 ### Frequent Visitor- Goals
 
 - I want to be able to add in a kids corn quiz, hard level and hardest level of question.
