@@ -21,19 +21,21 @@
   </head>
 
   <body>
+    <main>
+  <section>
     <!--heading and play again button-->
     <div
-      class="container-fluid p-2 bg-primary text-white text-center"
+      class="container-fluid p-2 bg-light text-dark text-center"
       style="position: sticky; top: 0px; margin-top: 0"
     >
-      <h1>EasyBible <span class="text-warning">quiz</span></h1>
+      <h1><b>EasyBible <span class="text-dark">quiz</span></b></h1>
       <p>Test your bible knowledge!</p>
       <div class="d-flex flex-row justify-content-between">
-        <p class="text-light" style="font-weight: 900">
+        <p class="text-dark" style="font-weight: 900">
           Points:<span id="points">0</span>
         </p>
         <p
-          class="btn btn-danger btn-outline-light"
+          class="btn btn-dark btn-outline-light"
           onclick="window.open('index.html','_self');"
           id="play"
         >
@@ -644,7 +646,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
+  </section>
+  </main>
     <!--Javascript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
