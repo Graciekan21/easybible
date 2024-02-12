@@ -68,39 +68,15 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 - I aim to enjoy the quiz experience while learning more about the Bible in an engaging way.
 
 #### First Time Visito- Goals
-
-As a first-time visitor to EasyBible, you likely have specific goals in mind to make the most of your experience. Here are some common goals you might have:
-
-Explore the Platform:
-
-Navigate through EasyBible to familiarize yourself with the layout and features.
-Understand how the quiz is structured and presented.
-Start the Quiz Easily:
-
-Find a straightforward way to initiate the quiz and begin testing your Bible knowledge.
-Experience a smooth onboarding process that doesn't require extensive guidance.
-Enjoy an Engaging Experience:
-
-Seek an engaging and enjoyable quiz experience that makes learning about the Bible interesting.
-Find questions that are challenging yet accessible, catering to various levels of familiarity with the scriptures.
-Understand Feedback and Scoring:
-
-Receive clear and instant feedback on quiz responses to understand correct and incorrect answers.
-Track your progress through a visible scoring system, providing a sense of achievement.
-Accessible Across Devices:
-
-Ensure that EasyBible is accessible and responsive on different devices, such as desktops, laptops, tablets, and smartphones.
-Learn About EasyBible's Features:
-
-Discover any unique features or additional resources provided by EasyBible, such as study guides or extra reading materials.
-Encouragement to Play Again:
-
-Feel motivated to replay the quiz with an easily accessible "Play Again" option.
-Understand how revisiting the quiz can contribute to continuous learning and improvement.
-Remember, EasyBible is designed with your learning and enjoyment in mind. Whether you're here for a quick quiz or a more immersive experience, we hope you find what you're looking for and leave with a deeper understanding of the Bible. Enjoy your journey with EasyBible!
+-  I want to take part in an online Easy Bible quiz to improve my general knowledge. It should be accessible at any time and from anywhere.
+- he Easy Bible website provides a broad selection of Bible knowledge quiz questions, spanning various topics similar to a Bible quiz. The site is accessible to users at their convenience.
+- I expect the website to adapt seamlessly to my device's screen size and resolution. 
+-  I have designed and developed the website with responsiveness as a priority, ensuring it adapts effectively to various screen sizes and devices. 
+- I aim to make the site easy to navigate, ensuring a smooth and intuitive user experience.
+- Buttons are employed for navigation across the site, resembling the style often seen in mobile applications. In line with this mobile app-like approach, I opted against incorporating a traditional navigation bar or footer, as these elements could detract from the desired aesthetic. Instead, the page title serves as a direct link to the home page, ensuring seamless navigation for users
 
 #### Returning Visitor- Goals
-
+- Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics.
 ### Frequent Visitor- Goals
 
 - I want to be able to add in a kids corn quiz, hard level and hardest level of question.

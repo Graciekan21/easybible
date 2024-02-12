@@ -53,11 +53,11 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 
 ### Mobile Results
 
-![index.html]()
+![pop up]()
 
-![game.html]()
+![game.page]()
 
-![highscores.html]()
+![highscores]()
 
 ---
 
@@ -69,14 +69,14 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 
 | Goals                                                                                                                                                                                       | How are they achieved?                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| I want to take part in an online Easy Bible quiz to improve my general knowledge. It should be accessible at any time and from anywhere.                                                    |The Easy Bible website provides a broad selection of Bible knowledge quiz questions, spanning various topics similar to a Bible quiz. The site is accessible to users at their convenience.
+| I want to take part in an online Easy Bible quiz to improve my general knowledge. It should be accessible at any time and from anywhere.  |The Easy Bible website provides a broad selection of Bible knowledge quiz questions, spanning various topics similar to a Bible quiz. The site is accessible to users at their convenience.
 | I expect the website to adapt seamlessly to my device's screen size and resolution.   | I have designed and developed the website with responsiveness as a priority, ensuring it adapts effectively to various screen sizes and devices. |I aim to make the site easy to navigate, ensuring a smooth and intuitive user experience.| Buttons are employed for navigation across the site, resembling the style often seen in mobile applications. In line with this mobile app-like approach, I opted against incorporating a traditional navigation bar or footer, as these elements could detract from the desired aesthetic. Instead, the page title serves as a direct link to the home page, ensuring seamless navigation for users |
 
 `Returning Visitors`
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
+|Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
 
 
 `Frequent Visitors`
