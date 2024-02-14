@@ -83,13 +83,17 @@ Within the .question selector, the background color is set to black, providing a
 
 However, in the .answers selector, the color is explicitly set to black, which may not match the desired color scheme of the webpage. Additionally, the text-decoration property is set to white, which seems inconsistent with the typical usage of this property. It's worth reviewing and potentially adjusting these styles to ensure they align with the intended design and color scheme of the webpage.
 
-* For the background linear gradient in the body, you've used shades of blue transitioning to black: `(rgb(25, 25, 100),`  `rgb(15, 15, 90),`  `#131325)` .
-* Black color is used for borders and background colors throughout the design.
-* The text color for answers is set to black: `rgb(0, 0, 0)` .
-* White color is used for the text of answers:  ` white` .
-* When hovering over answer options, the text color changes to ` black (#000)`  and the background color changes to ` white`  with full opacity: `rgba(255, 255, 255, 1)` .
+The colors used through out the webpage 
+*  `rgb 25, 25, 100,`  `rgb 15, 15, 90,`  `#131325`.
+*  `rgb(0, 0, 0` .
+*   ` black #000`. 
+* `rgba 255, 255, 255, 1`.
+* ` white`.
+* `Red`.
+* `Green`.
 
-  ![Easy Bible quiz Color Scheme](documentation/color-scheme.webp)
+   ![Easy Bible quiz Color Scheme](documentation/color-Scheme.png)
+
 
 ### Typography
 
@@ -203,7 +207,7 @@ To clone the repository:
 all are validated through w3 validator
 [w3 alidator](/testing/w3%20validator.png)
 
-![lighthouse](/documentation/features/lighthouse.png)
+![lighthouse](/documentation/lighthouse-validation.png)
 
 ### Solved Bu gs
 | No | Bug | How I solved the issue |
