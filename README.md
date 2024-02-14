@@ -150,7 +150,7 @@ HTML, CSS, Javascript
 
 [Github](https://github.com/) - On github is where the page files are stored
 
-[Github](https://gitcode.com/) - IDE used to create the site.
+[Github](https://gitpod.com/) - IDE used to create the site.
 
 - [Google Fonts](https://fonts.google.com/Roboto) - The Google fonts i used in the web-site.
 
@@ -168,12 +168,12 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [EasyBible quiz](/<https://graciekan21.github.io/easybible/).>
+The site is deployed using GitHub Pages - [EasyBible quiz](/<https://graciekan21.github.io/easybible/)
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/).>
+2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/)
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -186,7 +186,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [/](https://graciekan21.github.io/easybible/)
+2. Go to the repository for this project, [Fork](https://graciekan21.github.io/easybible/)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -194,7 +194,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21-easybible-0xgggcdc0b.us2.codeanyapp.com/#/workspaces/easybible)
+2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21-easybible-yds9nhpxjwr.ws-eu108.gitpod.io/)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press ner.
@@ -203,9 +203,12 @@ To clone the repository:
 
 ## Testing
 
-![w3 validator](/documentation/features/w3.png/)
+![Html validator](https://validator.w3.org/nu/#textarea)
 all are validated through w3 validator
-[w3 alidator](/testing/w3%20validator.png)
+
+
+[Css validator](https://jigsaw.w3.org/css-validator/validator)
+
 
 ![lighthouse](/documentation/lighthouse-validation.png)
 
