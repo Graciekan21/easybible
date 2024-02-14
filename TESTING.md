@@ -29,9 +29,9 @@ Throughout the entire development process, testing was ongoing. I used Chrome De
 
 [W3C](https://validator.w3.org/)The HTML on the all page of the website was validated using W3C. Additionally, the CSS was also validated using the same tool.
 
-- [index.html](https://validator.w3.org/nu/#textarea) - Passed with no error.
+- [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Feasybible%2F) - Passed with no error.
 
-- [style.css](https://jigsaw.w3.org/css-validator/validator) - passed with no error.
+- [style.css](/documentation/css-validated.png) - passed with no error.
 
 ---
 
@@ -110,7 +110,7 @@ Additional testing was conducted by friends and family on various devices and sc
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass |
 | Points  | Display the accumulated points for correct answers during the quiz. | Displays points | pass|
-|A pop-up alert modal appears and displays the marks obtained from the quiz. | Pass |
+|A pop-up alert | A pop-up alert modal appears and displays the marks obtained from the quiz. | It pops up at the end of the quiz | The modal pops up displaying the marks obtained in the quiz.| Pass |
 
 
 `quiz Page`
@@ -118,6 +118,5 @@ Additional testing was conducted by friends and family on various devices and sc
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass 
 |The quiz page .| Answering Bible questions with each question having 4 answers to choose from, with only one being correct.|The chosen answer is displayed, and if it is incorrect, it is highlighted in red. The correct answer is then shown in green. |  pass|
-| Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.| Pass |
-
+| Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.|It works as expected  | pass|   
 

@@ -34,7 +34,7 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
     - [Local Development](#local-development)
       - [How to Fork](#how-to-fork)
       - [How to Clone](#how-to-clone)
-  - [Testing](#testing)
+  - [Testing.md](#testing)
     - [Solved Bu gs](#solved-bu-gs)
     - [Kno-n Bugs](#kno-n-bugs)
   - [Credits](#credits)
