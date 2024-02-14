@@ -83,11 +83,11 @@ Within the .question selector, the background color is set to black, providing a
 
 However, in the .answers selector, the color is explicitly set to black, which may not match the desired color scheme of the webpage. Additionally, the text-decoration property is set to white, which seems inconsistent with the typical usage of this property. It's worth reviewing and potentially adjusting these styles to ensure they align with the intended design and color scheme of the webpage.
 
-* For the background linear gradient in the body, you've used shades of blue transitioning to black: (rgb(25, 25, 100), rgb(15, 15, 90), #131325).
+* For the background linear gradient in the body, you've used shades of blue transitioning to black: `(rgb(25, 25, 100),`  `rgb(15, 15, 90),`  `#131325)` .
 * Black color is used for borders and background colors throughout the design.
-* The text color for answers is set to black: rgb(0, 0, 0).
-* White color is used for the text of answers: white.
-* When hovering over answer options, the text color changes to black (#000) and the background color changes to white with full opacity: rgba(255, 255, 255, 1).
+* The text color for answers is set to black: `rgb(0, 0, 0)` .
+* White color is used for the text of answers:  ` white` .
+* When hovering over answer options, the text color changes to ` black (#000)`  and the background color changes to ` white`  with full opacity: `rgba(255, 255, 255, 1)` .
 
   ![Easy Bible quiz Color Scheme](documentation/color-scheme.webp)
 
@@ -134,8 +134,8 @@ In future I would like to:
 ### Accessibility
 
 * Using  HTML.
-- Using hover satetment.
-- Using sans-serif bold text to ensure that they are readable even for younger users
+* Using hover satetment.
+* Using sans-serif bold text to ensure that they are readable even for younger users
 
 In future i want to put into effect a tick for the correct answer anda cross for a wrong answer
 colour blindness (red/green) correct answer.
@@ -144,9 +144,9 @@ colour blindness (red/green) correct answer.
 
 HTML, CSS, Javascript
 
-ithub](https://github.com/) - On github is where the page files are stored
+[Github](https://github.com/) - On github is where the page files are stored
 
-ithub](https://codeanywhere.com/) - IDE used to create the site.
+[Github](https://gitcode.com/) - IDE used to create the site.
 
 - [Google Fonts](https://fonts.google.com/Roboto) - The Google fonts i used in the web-site.
 
@@ -206,20 +206,13 @@ all are validated through w3 validator
 ![lighthouse](/documentation/features/lighthouse.png)
 
 ### Solved Bu gs
-
-| | bug Bug | How I solved the isue 1. I wanted to add a back ground image on the webpage but it wasn't displaying the way i wanted it to. I solved by removing it completly and replacing it with background-image: linear-gradient(rgb(255, 255, 255),
-rg15dc). 2. The correct marks are not showing on the pop up alert after the user finishes answering all the question. I had to correct my javascript by (always divide by 4 for every repeated increment) and using (total_attempts / 4 >= total_questions) then it displays the correct marks at the end of the quiz|
-
-|
-|| 4. | When validating my Html it had alot of errors and it was because i had back slash on all my self closing elements and when i removed them then it had no errors. |
-|| my iced a space between the closing tags and that was kept on causing errors but with help of the Tutor Assistance it was the Auto-format save. to get red of that i had to go to the files then preference then click setting and the set off the Auto save foramt. 6. ![Bugs](/testing/Screenshot.png)I made some changes direct to my repository and i did not commit the changes i made and made changes in the IDE readme i couldn't push to repository.i solved it with the help of tutor support by
-git pull and git rebase than commited the files to the main branch.
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | The background image is not displaying as expected.| To address the issue of adding a background image on the webpage, which wasn't displaying as desired, I resolved it by removing the background image completely and replacing it with a linear gradient using the background-image: linear-gradient property with the specified RGB values.| 
+| 2 | The pop-up alert was not displaying the marks as expected.| The issue of correct marks not displaying on the   pop-up alert after the user finishes answering all the questions was addressed by adjusting the JavaScript logic. I corrected it by ensuring that for every repeated increment, the total score is divided by 4. Additionally, I modified the condition to display the correct marks at the end of the quiz to (total_attempts / 4 >= total_questions). This adjustment ensured that the correct marks are accurately calculated and displayed in the pop-up alert.|
+| 3 | I made some changes directly to my repository without committing them, and then I made additional changes to the README file in my IDE. However, I encountered an issue when trying to push these changes to the repository. With the help of tutor support, I resolved the issue by using git pull and git rebase to incorporate the changes from the remote repository into my local branch. After resolving any conflicts, I was able to commit the files to the main branch successfully.|
 
 ### Kno-n Bugs
-
-- Background and foreground colors do not have a sufficient contrast ratio.
-- Form elements do not have associated labels.
-- Robots.txt is not validLighthouse was unable to download a robots.txt file.
 
 ---
 
@@ -234,12 +227,6 @@ Bootstrap is a great tool to work with.
 * By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up alert at the end of the quiz.
 
 * [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me understand Bootstrap and how to use it for my webpage.
-
-
-* For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work) 
-
-The @import link was causing errors in the CSS.
-
 
 ### Content
 
