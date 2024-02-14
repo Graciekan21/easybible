@@ -53,7 +53,7 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 
 ### Mobile Results
 
-![pop up](/documentation/pop-up.png)
+![Pop up alert](/documentation/pop-up.png)
 
 ![quiz-mobile-screen.page](/documentation/quiz-mobile-screen.png)
 
@@ -109,8 +109,8 @@ Additional testing was conducted by friends and family on various devices and sc
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass |
-| Points  | Display the accumulated points for correct answers during the quiz. | Displays points | 
-A SweetAlert modal pops up and displays the marks obtained from the quiz. | Pass |
+| Points  | Display the accumulated points for correct answers during the quiz. | Displays points | pass|
+|A pop-up alert modal appears and displays the marks obtained from the quiz. | Pass |
 
 
 `quiz Page`

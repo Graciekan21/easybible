@@ -49,59 +49,53 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
 
 ## User Experience (UX)
 
-- EasyBible is designed with user experience in mind, ensuring a seamless and enjoyable quiz-taking process for all participants. Here are some key features of our user experience:
-
-- Intuitive Interface: EasyBible boasts a user-friendly interface that is easy to navigate, allowing you to focus on the quiz questions without any distractions.
-
-- Responsive Design: Our platform is optimized for various devices, including desktops, laptops, tablets, and smartphones, ensuring a consistent and enjoyable experience regardless of the device you use.
-
-- Engaging Content: The quiz questions are carefully crafted to cover a wide range of topics from the Bible, ensuring a diverse and engaging experience for participants of all levels.
-
-- Interactive Feedback: Receive instant feedback on your answers as you progress through the quiz, allowing you to learn and improve in real-time.
-
-- Progress Tracking: Keep track of your progress with the points counter displayed prominently at the top of the screen, motivating you to strive for a higher score.
-
 ### User Stories
 
-- As a first-time visitor to EasyBible, my goal is to explore the platform and understand how the quiz works.
-- I want to navigate the interface easily and start the quiz without any confusion.
-- I aim to enjoy the quiz experience while learning more about the Bible in an engaging way.
+#### First Time Visitor Goals
+* I want to take part in an online Easy Bible quiz to improve my general knowledge. It should be accessible at any time and from anywhere.
+* The Easy Bible website provides a broad selection of Bible knowledge quiz questions, spanning various topics similar to a Bible quiz. The site is accessible to users at their convenience.
+* I expect the website to adapt seamlessly to my device's screen size and resolution.
+* I have designed and developed the website with responsiveness as a priority, ensuring it adapts effectively to various screen sizes and devices. 
+* I aim to make the site easy to navigate, ensuring a smooth and intuitive user experience.
+* Buttons are employed for navigation across the site, resembling the style often seen in mobile applications. In line with this mobile app-like approach, I opted against incorporating a traditional navigation bar or footer, as these elements could detract from the desired aesthetic. Instead, the page title serves as a direct link to the home page, ensuring seamless navigation for users
 
-#### First Time Visito- Goals
--  I want to take part in an online Easy Bible quiz to improve my general knowledge. It should be accessible at any time and from anywhere.
-- he Easy Bible website provides a broad selection of Bible knowledge quiz questions, spanning various topics similar to a Bible quiz. The site is accessible to users at their convenience.
-- I expect the website to adapt seamlessly to my device's screen size and resolution. 
--  I have designed and developed the website with responsiveness as a priority, ensuring it adapts effectively to various screen sizes and devices. 
-- I aim to make the site easy to navigate, ensuring a smooth and intuitive user experience.
-- Buttons are employed for navigation across the site, resembling the style often seen in mobile applications. In line with this mobile app-like approach, I opted against incorporating a traditional navigation bar or footer, as these elements could detract from the desired aesthetic. Instead, the page title serves as a direct link to the home page, ensuring seamless navigation for users
+#### Returning Visitor Goals
+* Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. 
+* Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. 
 
-#### Returning Visitor- Goals
-- Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. 
-### Frequent Visitor- Goals
+#### Frequent Visitor Goals
 
-- I want to be able to add in a kids corn quiz, hard level and hardest level of question.
-- I want to be able to add it social media platforms.
-
+* Engage in Bible Knowledge Quizzes: Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. 
+* Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games.
 ---
 
 ### Colour Scheme
 
-In my css file I have used variables to declare colours because it easy to make change color any time you want.
+- - -
 
-I am using `rgb(255, 255, 255)`,`rgb(156, 158, 167)`,`#cbd2dc` & `white` colors for the background-linear-gradient image and text.
+## Design
 
-- I am using `bl- ack`,`rgba(50, 50, 50, 0.825)` for the border and questions display.
-- I am using `rgb(1, 3, 3)` for the answer display.
-- 1 am using `#fcf5f5` for answers when hovered over and for the `rgba(7, 10, 7, 0.3)` for answer display
-- i am using `red` when answer is wrong and green when answer is correct.
+### Colour Scheme
 
-oogle Fonts am using to import the fonts for using in the site.
+ webpage is primarily defined within the body and .question selectors. The body selector sets the background color using a linear gradient, transitioning from darker shades of blue to black. The text color for the entire page is set to white, ensuring good contrast against the background.
 
-- For the Page Title I am using the google font [Roboto](@import url('<https://fonts.googleapis.com/css2?family=Roboto:ital>,wght@0,500;1,400&display=swap');
-  Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves.
+Within the .question selector, the background color is set to black, providing a dark backdrop for the quiz questions. The .prompt class sets the color of the question text to white, maintaining consistency with the overall color scheme.
 
-[Robert fonts](https://fonts.google.com/specimen/Roboto?query=Robot)
-or all the text of the web-page I am using the google fonts by Robert.
+However, in the .answers selector, the color is explicitly set to black, which may not match the desired color scheme of the webpage. Additionally, the text-decoration property is set to white, which seems inconsistent with the typical usage of this property. It's worth reviewing and potentially adjusting these styles to ensure they align with the intended design and color scheme of the webpage.
+
+* For the background linear gradient in the body, you've used shades of blue transitioning to black: (rgb(25, 25, 100), rgb(15, 15, 90), #131325).
+* Black color is used for borders and background colors throughout the design.
+* The text color for answers is set to black: rgb(0, 0, 0).
+* White color is used for the text of answers: white.
+* When hovering over answer options, the text color changes to black (#000) and the background color changes to white with full opacity: rgba(255, 255, 255, 1).
+
+  ![Easy Bible quiz Color Scheme](documentation/color-scheme.webp)
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site.
+
+* For the Page i have used [Roboto](https://fonts.google.com/specimen/Roboto?query=rob).Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn't compromise, allowing letters to be settled into their natural width.
 
 ### Background linear-gradien
 
@@ -109,40 +103,37 @@ This web page has a background linear-gradien
 
 ### Features
 
-This webpage is composed of a one page website which is the quiz page, it has points scored button, a pop up when the question are answered to show the scores, a play again button to erase the answers for restart; a 404 error page.
-
+* This webpage is a single-page website featuring the quiz. It includes a points scored bar, a pop-up displaying scores when questions are answered, and a "Play Again" button to reset the answers for a restart.
 This website is responsive and have:
 
-- A favicon in the browser.
+* A favicon is displayed in the browser tab.
 
-  ![Favicon](/documentation/features/favicon.png)
+ ![Favicon](/documentation/features/favicon.png)
 
-- The title of webpage is at the top of page.
+* The webpage title is located at the top of the page.
 
 #### The Home Page
 
-The Easy bible quiz displays the questions on the home page and by using a cursor a user can scroll up and down the home page. The title is also displayed on top of the page and then a containers which the text questions and answers are displayed, including the play again button that when clicked it takes the user back to the home page at any time.
+* The Easy bible quiz displays the questions on the home page and by using a cursor a user can scroll up and down the home page. The title is also displayed on top of the page and then a containers which the text questions and answers are displayed, including the play again button that when clicked it takes the user back to the home page at any time.
 
-The user can only one attempt to select an answer per question untill done with all the questions displayed.
+* The user can only make one attempt to select an answer per question until they are done with all the questions displayed.
 
-When the answer a user chooses one of the answers, if the answer chosen is wrong; correct-answer will show green automatically.
+When the user chooses an answer, if the chosen answer is wrong, the correct answer will automatically show in green.
+ 
+![Pop up alert](/documentation/pop-up.png)
 
-![Alert](/documentation/features/marks.png)
-
-Am using a The pop up that alerts after completing the quiz and shows the user marks of what they have ot out of the number of questions.
+* A pop-up alert modal appears and displays the marks obtained from the quiz.
 
 #### The Future for the site
 
 In future I would like to:
-
-1. I want to add interactive and engaging elements to your Bible quiz web page can enhance the user experience.
-2. Timer: Add a timer for each question to create a sense of urgency. Users can feel challenged to answer quickly, making the quiz more exciting.
-3. Multimedia: Incorporate multimedia elements such as images or short audio clips related to the questions. This can make the quiz more visually appealing and engaging.
-4. Randomized Questions: Shuffle the order of questions each time the quiz is taken to prevent users from memorizing the sequence.
+* Timer: Implement a timer for each question to create a sense of urgency. Users will feel challenged to answer quickly, adding excitement to the quiz.
+* Multimedia: Incorporate multimedia elements like images or short audio clips relevant to the questions. This can enhance the visual appeal and engagement of the quiz.
+* Randomized Questions: Shuffle the order of questions each time the quiz is taken. This prevents users from memorizing the sequence, adding variety and challenge to each attempt.
 
 ### Accessibility
 
-- Using TML.
+* Using  HTML.
 - Using hover satetment.
 - Using sans-serif bold text to ensure that they are readable even for younger users
 
@@ -236,19 +227,25 @@ git pull and git rebase than commited the files to the main branch.
 
 ### Code Used
 
-- By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css) Bootstrap, is a great tool to work with. I really want to.
+* By using [W3 schools](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css) 
 
-- By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up at the end of the quiz.
+Bootstrap is a great tool to work with.
 
-- [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me to understand how to use bootstrap for my page.
+* By using [sweet alert](https://sweetalert.js.org/guides/) which i used to achieve the pop up alert at the end of the quiz.
 
-- For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work) because @import link was causing errors in the css
+* [YouTube tutorial](https://www.youtube.com/watch?v=4sosXZsdy-s&t=615s&ab_channel=TraversyMedia) helped me understand Bootstrap and how to use it for my webpage.
+
+
+* For google fonts [Slackoverflow](https://stackoverflow.com/questions/44259509/css-import-font-doesnt-work) 
+
+The @import link was causing errors in the CSS.
+
 
 ### Content
 
-For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/).>
+For all the questions and correct answers i used [parde.com](https://parade.com/1048764/marynliles/bible-trivia-questions/)
 
-For rest of the content for the webpage, like title, heading and instructions was written by myself.
+For the remaining content of the webpage, such as the title, headings, and instructions, I wrote them myself.
 
 ### Media
 
@@ -258,9 +255,9 @@ For rest of the content for the webpage, like title, heading and instructions wa
 
 I would like to Acknowledge
 
-- [Fredrick Sanhewe](https://zw.linkedin.com/in/fredrick-sanhewe-a35601176) I would like to express my heartfelt gratitude tofor helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
+* [Fredrick Sanhewe] I would like to express my heartfelt gratitude to for helping me when i was struggling with Javascript and debuging. Their expertise, dedication, and collaborative spirit significantly. I am truly grateful for their support.
 
-- [Jubril_Mentor](my mentor code institute)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
+* [Jubril Akolade](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/mentor)- I extend my deepest gratitude and unwavering guidance and mentorship throughout this project. Helped me throuh the readme.Thank you for being an inspiring mentor and a driving force behind our achievements.
 
-- [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
+* [Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
   A huge shout-out to our amazing tutors for their invaluable support in debugging challenges. Your expertise and patient guidance have been instrumental in overcoming obstacles and enhancing our understanding. Thank you for being the troubleshooters behind our success!
