@@ -1,6 +1,6 @@
 # EasyBible - Testing
 
-![EasyBible shown on a variety of screen sizes](documentation/features/easybible.png)
+![EasyBible shown on a variety of screen sizes](/documentation/easybible.png)
 
 Visit the deployed site: [EasyBible](https://graciekan21.github.io/easybible/)
 

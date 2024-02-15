@@ -1,6 +1,6 @@
 # EasyBible Quiz
 
-![EasyBible quiz](documentation/features/easybible.png)
+![EasyBible quiz](documentation/easybible.png)
 
 Visit the deployed live site: [HERE](https://graciekan21.github.io/easybible/)
 
