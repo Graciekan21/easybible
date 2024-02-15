@@ -8,16 +8,16 @@ Visit the deployed site: [EasyBible](https://graciekan21.github.io/easybible/)
 
 ## CONTENTS
 
-- [EasyBible - Testing](#easybible---testing)
-  - [CONTENTS](#contents)
-  - [AUTOMATED TESTING](#automated-testing)
-    - [W3C Validator](#w3c-validator)
-    - [JavaScript Validator](#javascript-validator)
-    - [Lighthouse](#lighthouse)
-    - [Desktop Results](#desktop-results)
-    - [Mobile Results](#mobile-results)
-  - [MANUAL TESTING](#manual-testing)
-    - [Testing User Stories](#testing-user-stories)
+* [EasyBible - Testing](#easybible---testing)
+  * [CONTENTS](#contents)
+  * [AUTOMATED TESTING](#automated-testing)
+    * [W3C Validator](#w3c-validator)
+    * [JavaScript Validator](#javascript-validator)
+    * [Lighthouse](#lighthouse)
+    * [Desktop Results](#desktop-results)
+    * [Mobile Results](#mobile-results)
+  * [MANUAL TESTING](#manual-testing)
+    * [Testing User Stories](#testing-user-stories)
 
 Throughout the entire development process, testing was ongoing. I used Chrome Developer Tools to identify and troubleshoot any issues as they arose. During development, I relied on Google Developer Tools to verify functionality and assist with problem-solving when things didn't work as expected.
 
@@ -39,9 +39,10 @@ Throughout the entire development process, testing was ongoing. I used Chrome De
 
 ### JavaScript Validator
 
-[jshint](https://jshint.com/) was used to validate the JavaScript.
+* [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-- [javascript.js]() - Passed.
+
+* [javascript.js](/documentation/js-validated.png) - In the validator, I received 2 warnings, but they do not affect the webpage. Additionally, no errors were detected in the workspace.
 
 ---
 
