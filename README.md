@@ -168,12 +168,12 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [EasyBible quiz](/<https://graciekan21.github.io/easybible/)
+The site is deployed using GitHub Pages - [EasyBible quiz](https://graciekan21.github.io/easybible/)
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [graciekan21/EasyBible](/<https://graciekan21.github.io/easybible/)
+2. Go to the repository for this project, [graciekan21/EasyBible](https://graciekan21.github.io/easybible/)
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
