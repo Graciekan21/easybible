@@ -118,5 +118,5 @@ Additional testing was conducted by friends and family on various devices and sc
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass 
 |The quiz page .| Answering Bible questions with each question having 4 answers to choose from, with only one being correct.|The chosen answer is displayed, and if it is incorrect, it is highlighted in red. The correct answer is then shown in green. | When all correct answers are chosen, they are highlighted in green, while wrong answers are highlighted in red.|pass|
-| Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.|It works as expected  | pass|   
+| Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.| Pass|   
 
