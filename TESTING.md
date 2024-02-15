@@ -109,7 +109,7 @@ Additional testing was conducted by friends and family on various devices and sc
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass |
-| Points  | Display the accumulated points for correct answers during the quiz. | Displays points | pass|
+| Points  | Display the accumulated points for correct answers during the quiz.|  Answering the quiz game correctly results in the correct marks being displayed on the points bar.| Displays points | pass|
 |A pop-up alert | A pop-up alert modal appears and displays the marks obtained from the quiz. | It pops up at the end of the quiz | The modal pops up displaying the marks obtained in the quiz.| Pass |
 
 
@@ -117,6 +117,6 @@ Additional testing was conducted by friends and family on various devices and sc
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The play again button | When clicked, it redirects you to the quiz, which serves as the home page. | Clicked play again button | The quiz page resets.| Pass 
-|The quiz page .| Answering Bible questions with each question having 4 answers to choose from, with only one being correct.|The chosen answer is displayed, and if it is incorrect, it is highlighted in red. The correct answer is then shown in green. |  pass|
+|The quiz page .| Answering Bible questions with each question having 4 answers to choose from, with only one being correct.|The chosen answer is displayed, and if it is incorrect, it is highlighted in red. The correct answer is then shown in green. | When all correct answers are chosen, they are highlighted in green, while wrong answers are highlighted in red.|pass|
 | Buttons for answers| When hovering over buttons with a black background and white text, the buttons should transition to a white background with black text.|  Hover over each button on the page| Each button displayed the correct styling when hovered over.|It works as expected  | pass|   
 
