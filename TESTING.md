@@ -27,7 +27,7 @@ Throughout the entire development process, testing was ongoing. I used Chrome De
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/)The HTML on the all page of the website was validated using W3C. Additionally, the CSS was also validated using the same tool.
+![W3C](https://validator.w3.org/)The HTML on the all page of the website was validated using W3C. Additionally, the CSS was also validated using the same tool.
 
 - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Feasybible%2F) - Passed with no error.
 
