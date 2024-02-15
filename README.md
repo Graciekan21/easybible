@@ -34,7 +34,7 @@ Online Bible quizzes have gained popularity as a way for individuals to test the
     - [Local Development](#local-development)
       - [How to Fork](#how-to-fork)
       - [How to Clone](#how-to-clone)
-  - [Testing.md](#testing)
+  - [Testing](#testing)
     - [Solved Bu gs](#solved-bu-gs)
     - [Kno-n Bugs](#kno-n-bugs)
   - [Credits](#credits)
@@ -203,15 +203,15 @@ To clone the repository:
 
 ## Testing
 
-[Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Feasybible%2F)
+[Html validator](https://validator.w3.org/)
 all are validated through w3 validator
 
 
-[Css validator](https://jigsaw.w3.org/css-validator/validator)
+![Css validator](/documentation/css-validated.png)
 
 
 
- ![lighthouse](/documentation/lighthouse-validation.png)
+![lighthouse](/documentation/lighthouse-validation.png/)
 
 ---
 
@@ -220,7 +220,7 @@ all are validated through w3 validator
 | :--- | :--- | :--- |
 | 1 | The background image is not displaying as expected.| To address the issue of adding a background image on the webpage, which wasn't displaying as desired, I resolved it by removing the background image completely and replacing it with a linear gradient using the background-image: linear-gradient property with the specified RGB values.| 
 | 2 | The pop-up alert was not displaying the marks as expected.| The issue of correct marks not displaying on the   pop-up alert after the user finishes answering all the questions was addressed by adjusting the JavaScript logic. I corrected it by ensuring that for every repeated increment, the total score is divided by 4. Additionally, I modified the condition to display the correct marks at the end of the quiz to (total_attempts / 4 >= total_questions). This adjustment ensured that the correct marks are accurately calculated and displayed in the pop-up alert.|
-| 3 | I made some changes directly to my repository without committing them, and then I made additional changes to the README file in my IDE. However, I encountered an issue when trying to push these changes to the repository. With the help of tutor support, I resolved the issue by using git pull and git rebase to incorporate the changes from the remote repository into my local branch. After resolving any conflicts, I was able to commit the files to the main branch successfully.|
+| 3 | I made some changes directly to my repository without committing them, and then I made additional changes to the README file in my IDE. However, I encountered an issue when trying to push these changes to the repository.| With the help of tutor support, I resolved the issue by using git pull and git rebase to incorporate the changes from the remote repository into my local branch. After resolving any conflicts, I was able to commit the files to the main branch successfully.|  
 
 ### Kno-n Bugs
 
