@@ -215,6 +215,8 @@ all are validated through w3 validator
 
 ---
 
+Please refer to [TESTING.md](TESTING.md) file for all testing that was conducted.
+
 ### Solved Bu gs
 | No | Bug | How I solved the issue |
 | :--- | :--- | :--- |
