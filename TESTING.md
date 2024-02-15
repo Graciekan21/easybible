@@ -31,7 +31,7 @@ Throughout the entire development process, testing was ongoing. I used Chrome De
 
 - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Feasybible%2F) - Passed with no error.
 
-- [style.css](/documentation/css-validated.png) - passed with no error.
+- ![style.css](/documentation/css-validated.png) - passed with no error.
 
 ---
 

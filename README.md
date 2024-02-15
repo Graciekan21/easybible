@@ -203,14 +203,17 @@ To clone the repository:
 
 ## Testing
 
-![Html validator](https://validator.w3.org/nu/#textarea)
+[Html validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Feasybible%2F)
 all are validated through w3 validator
 
 
 [Css validator](https://jigsaw.w3.org/css-validator/validator)
 
 
-![lighthouse](/documentation/lighthouse-validation.png)
+
+ ![lighthouse](/documentation/lighthouse-validation.png)
+
+---
 
 ### Solved Bu gs
 | No | Bug | How I solved the issue |
