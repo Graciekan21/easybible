@@ -82,7 +82,7 @@ I utilized Lighthouse within the Chrome Developer Tools to test the performance,
 | Goals                                                                                                                             | How are they achieved?                                                                                                                                                             |
 | :-------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Engage in Bible Knowledge Quizzes: Returning visitors can participate in Bible knowledge quizzes covering a wide range of topics. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-|                                                                                                                                   
+                                                                                                                               
 
 ---
 
