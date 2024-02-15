@@ -1,4 +1,3 @@
-/*jshint esversion: 6 */
 window.onload = function () { 
     let questions = document.querySelectorAll(".question");//collect all questions and their answers
     let totalQuestions = questions.length;
